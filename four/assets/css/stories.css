@@ -1,0 +1,40 @@
+.main_page {
+    background: url("../img/stories-background.jpg") no-repeat 0vw 0%;
+    background-size: 100vw
+}
+
+.main_page__look_block {
+    align-items: center;
+    justify-content: center
+}
+
+.main_page__look_block p{
+    color: #ffffff;
+    font-family: "Gals Light";
+    font-size: 1.77083333333vw;
+    font-weight: bold;
+    line-height: 5.0390625vw;
+    text-transform: uppercase;
+    /* Text style for "CONTACTS" */
+    letter-spacing: 0.2171875vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .main_page {
+        height: 155.34375vw;
+        background: url("../img/outlet-background.jpg") no-repeat 53% 45%;
+        background-size: 211vw;
+    }
+    .main_page__look_block p{
+        margin-top: 64.6875vw;
+        font-size: 5.3125vw;
+
+    }
+
+    .mobile_footer {
+        padding: 0 6.874956vw
+
+    }
+
+}

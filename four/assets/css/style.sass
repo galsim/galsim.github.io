@@ -1,0 +1,2513 @@
+@font-face 
+    font-family:  Gals Light
+    src: url("../fonts/Gals-Light.eot") format("eot"), 
+    url("../fonts/Gals-Light.woff") format("woff"), 
+    url("../fonts/Gals-Light.woff2") format("woff2"), 
+    url("../fonts/Gals-Light.ttf") format("ttf")   
+
+.main_page
+    background: url(../img/main_page_background.png) no-repeat 24% 17%
+    background-size: 101%
+    &__header
+        display: flex
+        justify-content: space-between
+        height: 90*1vw*0.052083
+        align-items: center
+        padding: 0 54*1vw*0.052083
+        background: rgba(116, 100, 101, 0.5)
+        p 
+            color: #ffffff
+            font-family: "Gals Light"
+            font-size: 12*1vw*0.052083
+            font-weight: bold
+            line-height: 16.19*1vw*0.052083
+            text-transform: uppercase
+            letter-spacing: 0.8*1vw*0.052083
+            span
+                margin: 0 (17vw/19.2)
+    &__look_block
+        height: 995*1vw*0.052083
+        display: flex
+        .left_block
+            width: 100%
+            display: flex
+            justify-content: center 
+            align-items: center
+            p 
+                text-align: center
+                color: #ffffff
+                font-family: "Gals Light"
+                font-size: 34*1vw*0.052083
+                font-weight: 100
+                text-transform: uppercase
+                letter-spacing: 3.39*1vw*0.052083
+                line-height: 48*1vw*0.052083
+
+        .right_block
+            width: 100%
+            display: flex
+            justify-content: center 
+            align-items: center
+            p 
+                text-align: center
+                color: #ffffff
+                font-family: "Gals Light"
+                font-size: 34*1vw*0.052083
+                font-weight: 100
+                text-transform: uppercase
+                letter-spacing: 3.39*1vw*0.052083
+                line-height: 48*1vw*0.052083
+
+.menu
+    background: #2e1b1e url("../img/background-menu.png") no-repeat -31% 62%
+    padding: (3*1vw/19.2) (35vw/19.2) (0vw/19.2) (55vw/19.2)
+    background-size: 63%
+    position: absolute
+    top: 0px
+    left: 0px
+    width: 94.453vw
+    z-index: 10
+    display: none
+    &__header
+        display: flex
+        justify-content: space-between
+        margin-top: 1vw
+        padding-right: 0.9vw
+        padding-top: 1vw
+        p
+            color: #ffffff
+            font-family: "Gals Light"
+            font-size: (12vw/19.2)
+            font-weight: bold
+            line-height: (21.59vw / 19.2)
+            text-transform: uppercase
+            /* Text style for "CLOSE" */
+            letter-spacing: (0.8vw/19.2)
+            span 
+                margin: 0 (17vw/19.2)
+
+    &__links
+        margin-top: (176vw/19.2)
+        padding: 0 0 0 (382vw/19.2)
+        margin-bottom: (288vw/19.2)
+        a 
+            text-decoration: none
+            &:link
+                color: #ffffff
+            &:alink
+                color: #ffffff
+            &:vlink
+                color: #ffffff
+            &:visited 
+                color: #ffffff
+            &:active
+               color: #ffffff
+            &:hover
+                color: #ffffff 
+        .line
+            p
+                display: inline-block
+                
+                color: #ffffff
+                font-family: "Minion Pro"
+                font-size: (36vw/19.2)
+                font-weight: bold
+                line-height: (66.26vw/19.2)
+                text-transform: uppercase
+                /* Text style for "COLLECTION" */
+                letter-spacing: (1.2vw/19.2)
+            &:nth-child(1)
+                margin-left: (19vw/19.2)
+                margin-bottom: (93vw/19.2)
+                p 
+                    &:nth-child(1)
+                        margin-right: (242vw/19.2)
+                    &:nth-child(2)
+                        margin-right: (172vw/19.2)
+                    
+            &:nth-child(2)
+                margin-bottom: (114vw/19.2)
+                p 
+                    &:nth-child(1)
+                        margin-right: (215vw/19.2)
+                    &:nth-child(2)
+                        margin-right: (178vw/19.2)
+            &:nth-child(3)
+                margin-left: (206vw/19.2)
+                p:nth-child(1)
+                    margin-right: (282vw/19.2)
+    .footer
+        padding: 0 (12vw/19.2) (60vw/19.2)
+        &__form 
+            label
+                margin-bottom: (10vw/19.2)
+                color: #ffffff
+                display: block
+                font-family: "Gals Light"
+                font-size: (12vw/19.2)
+                font-weight: bold
+                line-height: (16.19vw/19.2)
+                text-transform: uppercase
+                /* Text style for "NEWSLETTER" */
+                letter-spacing: (0.8vw/19.2)
+            input 
+                width: (284vw/19.2)
+                height: (20vw/19.2)
+                margin-bottom: (34vw/19.2)
+                color: #ffffff
+                font-family: "Gals Light"
+                font-size: (12vw/19.2)
+                font-weight: bold
+                line-height: (16.19vw/19.2)
+                text-transform: uppercase
+                /* Text style for "NEWSLETTER" */
+                letter-spacing: (1.5vw/19.2)
+                background: none
+                border: none
+                border-bottom: (2vw/19.2) solid white 
+            div 
+                display: flex
+                justify-content: space-between
+                color: #ffffff
+                font-family: "Gals Light"
+                font-size: (12vw/19.2)
+                font-weight: bold
+                line-height: (16.19vw/19.2)
+                text-transform: uppercase
+                /* Text style for "2019 © MAS" */
+                letter-spacing: (0.8vw/19.2)
+                p 
+                    span 
+                        margin: 0 (1*1vw/19.2)
+    img 
+            position: fixed
+            bottom: (48vw/19.2)
+            width: 22vw
+            left: 50%
+            transform: translateX((-196vw/19.2))
+                
+.page
+    background: #f5f2ef
+    padding-top: (206vw/19.2)
+    padding-bottom: (65vw/19.2)
+    &__first_block
+        display: flex
+        justify-content: space-between
+        padding: 0 (119vw/19.2) 0 (104vw/19.2)
+        margin-bottom: (228vw/19.2)
+        p 
+            padding: (256vw/19.2) (0vw/19.2) (0vw/19.2) (147vw/19.2)
+            text-align: justify
+            color: #000000
+            font-family: "Gals Light"
+            font-size: (12vw/19.2)
+            font-weight: bold
+            line-height: (16.19vw/19.2)
+            letter-spacing: (1.4vw/19.2)
+        img 
+            margin-bottom: (19vw/19.2)
+            width: 47.7vw
+        .img_block
+            p 
+                padding: 0
+    &__second_block
+        display: flex
+        justify-content: space-between
+        padding: (0vw/19.2) (109vw/19.2) (0vw/19.2) (140vw/19.2)
+        margin-bottom: (206vw/19.2)
+        .video
+            /* Style for "Layer 8" */
+            width: (924vw/19.2)
+            height: (520vw/19.2)
+            margin-top: (247vw/19.2)
+            border: 1px solid red
+        img 
+            margin-bottom: (24vw/19.2)
+            width: 31.1vw
+        .img_block
+            p 
+                color: #000000
+                font-family: "Gals Light"
+                font-size: (12vw/19.2)
+                font-weight: bold
+                line-height: (16.19vw/19.2)
+                letter-spacing: (1.4vw/19.2)
+    &__third_block
+        display: flex
+        justify-content: space-between
+        padding: (0vw/19.2) (0vw/19.2) (0vw/19.2) (78vw/19.2)
+        margin-bottom: (142vw/19.2)
+        img
+            margin-bottom: (18vw/19.2)
+            &:nth-child(1)
+                width: 31.2vw
+        p
+            color: #000000
+            font-family: "Gals Light"
+            font-size: (12vw/19.2)
+            font-weight: bold
+            line-height: (16.19vw/19.2)
+            /* Text style for "SS 20 , Mo" */
+            letter-spacing: (0.8vw/19.2)
+        .right_img_block
+            padding-top: (180vw/19.2)
+            img
+                width: 46.7vw
+    &__fourth_block
+        display: flex
+        justify-content: space-between
+        padding: (0vw/19.2) (129vw/19.2) (0vw/19.2) (168vw/19.2)
+        p 
+            color: #000000
+            font-family: "Gals Light"
+            font-size: (12vw/19.2)
+            font-weight: bold
+            line-height: (16.19vw/19.2)
+            /* Text style for "Maestro" */
+            letter-spacing: (0.8vw/19.2)
+        img 
+           margin-bottom: (16vw/19.2)
+           width:  31.7vw
+        .left_block
+            .video
+                /* Style for "Layer 7" */
+                width: (884vw/19.2)
+                height: (488vw/19.2)
+                border: 1px solid red
+                margin-top: (208vw/19.2)
+                margin-bottom: (20*1vw/19.2)
+.mobile_footer
+    display: none
+
+.contact_page
+    background: #f5f2ef
+    padding-top: 155*1vw*0.052083
+    padding-bottom: 171*1vw*0.052083
+    .adres 
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding-right: 218*1vw*0.052083
+        margin-bottom: 295*1vw*0.052083
+        &__map
+            /* Style for "Layer 20" */
+            width: 862*1vw*0.052083
+            height: 800*1vw*0.052083
+            background: url("../img/contact-map.jpg") no-repeat
+            background-size: 149%
+        &__street
+            align-self: flex-start
+            margin-top: 138*1vw*0.052083
+            .shop
+                &:first-child
+                    margin-bottom: 137*1vw*0.052083
+                .title_shop
+                    color: #000000
+                    font-family: "Minion Pro"
+                    font-size: 30*1vw*0.052083
+                    font-weight: 400
+                    line-height: 30.13*1vw*0.052083
+                    text-transform: uppercase
+                    /* Text style for "MASSIMO SF" */
+                    letter-spacing: 1.67*1vw*0.052083
+                    margin-bottom: 43*1vw*0.052083
+                .shop_adres
+                    color: #000000
+                    font-family: "Gals Light"
+                    font-size: 12*1vw*0.052083
+                    font-weight: bold
+                    line-height: 16.19*1vw*0.052083
+                    text-transform: uppercase
+                    /* Text style for "MASSIMO SF" */
+                    letter-spacing: 0.8*1vw*0.052083
+                    margin-bottom: 26*1vw*0.052083
+                button
+                    /* Style for "Rectangle" */
+                    width: 150*1vw*0.052083
+                    height: 46*1vw*0.052083
+                    border: 1*1vw*0.052083 solid #000001
+                    background-color: #ffffff
+                    color: #000000
+                    font-family: "Gals Light"
+                    font-size: 12*1vw*0.052083
+                    font-weight: bold
+                    line-height: 16.19*1vw*0.052083
+                    text-transform: uppercase
+                    /* Text style for "SHOW ON MA" */
+                    letter-spacing: 0.8*1vw*0.052083
+    .second_block
+        display: flex
+        justify-content: flex-start
+        align-items: flex-start
+        padding-left: 196*1vw*0.052083
+        margin-bottom: 111*1vw*0.052083
+        p 
+            /* Style for "Inspired b" */
+            width: 192*1vw*0.052083
+            color: #000000
+            font-family: "Gals Light"
+            font-size: 12*1vw*0.052083
+            font-weight: bold
+            line-height: 16.19*1vw*0.052083
+            /* Text style for "Inspired b" */
+            letter-spacing: 0.8*1vw*0.052083 
+            margin-top: 166*1vw*0.052083
+            margin-right: 155*1vw*0.052083
+        img 
+            /* Style for "Layer 22" */
+            width: 1204*1vw*0.052083
+    .third_block
+        padding-left: 805*1vw*0.052083
+        margin-bottom: 240*1vw*0.052083
+        p
+            width: 662*1vw*0.052083
+            color: #000000
+            font-family: "Gals Light"
+            font-size: 12*1vw*0.052083
+            font-weight: bold
+            line-height: 16.19*1vw*0.052083
+            /* Text style for "The store" */
+            letter-spacing: 0.8*1vw*0.052083
+    .fourth_block 
+        display: flex 
+        justify-content: space-between
+        align-items: flex-start
+        img
+            &:first-child
+                width: 1090*1vw*0.052083
+            &:last-child
+                margin-top: 44*1vw*0.052083
+                width: 732*1vw*0.052083
+.outlet_page
+    padding-top: 40*1vw*0.052083
+    padding-bottom: 26*1vw*0.052083
+    background: #f5f2ef
+    &__first_block
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        padding: 0*1vw*0.052083 178*1vw*0.052083 0 108*1vw*0.052083
+        margin-bottom: 146*1vw*0.052083
+        .look
+            img
+                width: 630*1vw*0.052083
+                margin-bottom: 33*1vw*0.052083
+            p 
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                /* Text style for "SS 17 , Mo" */
+                letter-spacing: 0.8*1vw*0.052083
+            &:first-child
+                img
+                    margin-top: 130*1vw*0.052083
+    &__second_block
+        padding-left: 465*1vw*0.052083
+        margin-bottom: 68*1vw*0.052083
+        img 
+            width: 1221*1vw*0.052083
+            margin-bottom: 33*1vw*0.052083
+        p 
+            color: #000000
+            font-family: "Gals Light"
+            font-size: 12*1vw*0.052083
+            font-weight: bold
+            line-height: 16.19*1vw*0.052083
+            /* Text style for "SS 18 , Mo" */
+            letter-spacing: 0.8*1vw*0.052083
+    &__third_block
+        padding: 0 39*1vw*0.052083 0 236*1vw*0.052083
+        display: flex 
+        justify-content: space-between 
+        align-items: flex-start
+        .look
+            &:last-child
+                margin-top: 51*1vw*0.052083
+                p 
+                    margin-bottom: 30*1vw*0.052083
+        img     
+            width: 630*1vw*0.052083
+            margin-bottom: 30*1vw*0.052083
+        p
+            color: #000000
+            font-family: "Gals Light"
+            font-size: 12*1vw*0.052083
+            font-weight: bold
+            line-height: 16.19*1vw*0.052083
+            /* Text style for "SS 18 , Mo" */
+            letter-spacing: 0.8*1vw*0.052083
+
+.stories_page
+    padding-top: 191*1vw*0.052083
+    background: #f5f2ef
+    .first_block
+        display: flex
+        justify-content: space-between
+        align-items: flex-start 
+        padding: 0 158*1vw*0.052083 0 162*1vw*0.052083
+        margin-bottom: 230*1vw*0.052083
+        .left_side
+            .img
+                display: flex
+                justify-content: center 
+                align-items: center 
+                /* Style for "Layer 19" */
+                width: 1059*1vw*0.052083
+                height: 707*1vw*0.052083
+                background: url("../img/stories-first-block.jpg")
+                margin-bottom: 22*1vw*0.052083
+                p 
+                    text-align: center 
+                    color: #ffffff
+                    font-family: "Gals Light"
+                    font-size: 34*1vw*0.052083
+                    font-weight: bold
+                    line-height: 32.25*1vw*0.052083
+                    text-transform: uppercase
+                    /* Text style for "FASHION PA" */
+                    letter-spacing: 1.39*1vw*0.052083
+                    /* Text style for "CAMPAIGN 2" */
+                    font-size: 22*1vw*0.052083
+                    letter-spacing: 0.89*1vw*0.052083
+            .title_img 
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                /* Text style for "Discover F" */
+                letter-spacing: 0.8*1vw*0.052083
+        .right_side
+            margin-top: 218*1vw*0.052083
+            p 
+                text-align: justify
+                width: 413*1vw*0.052083
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                /* Text style for "Тщеславие" */
+                letter-spacing: 0.8*1vw*0.052083
+            .title 
+                color: #000000
+                font-family: "Minion Pro"
+                font-size: 30*1vw*0.052083
+                font-weight: 400
+                line-height: 30.13*1vw*0.052083
+                text-transform: uppercase
+                /* Text style for "SS 2020" */
+                letter-spacing: 1.67*1vw*0.052083
+                margin-bottom: 51*1vw*0.052083 
+            .first_parag
+                margin-bottom: 25*1vw*0.052083
+            .second_parag
+                margin-bottom: 25*1vw*0.052083
+            .third_parag
+    .second_block
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        padding: 0 111*1vw*0.052083 0 108*1vw*0.052083
+        margin-bottom: 85*1vw*0.052083
+        .left_side
+            .img
+                /* Style for "Layer 21" */
+                width: 640*1vw*0.052083
+                height: 912*1vw*0.052083
+                display: flex
+                justify-content: center
+                align-items: center
+                background: url("../img/stories-second-block-left.jpg")
+                margin-bottom: 22*1vw*0.052083
+                p 
+                    text-align: center
+                    color: #ffffff
+                    font-family: "Gals Light"
+                    font-size: 22*1vw*0.052083
+                    font-weight: bold
+                    line-height: 32.25*1vw*0.052083
+                    text-transform: uppercase
+                    /* Text style for "MILANO" */
+                    font-size: 34*1vw*0.052083
+                    letter-spacing: 1.39*1vw*0.052083
+                    text-transform: uppercase
+                    /* Text style for "CAMPAIGN 2" */
+                    letter-spacing: 0.89*1vw*0.052083
+            p 
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                /* Text style for "Discover F" */
+                letter-spacing: 0.8*1vw*0.052083
+        .right_side
+            .title
+                color: #000000
+                font-family: "Minion Pro"
+                font-size: 30*1vw*0.052083
+                font-weight: 400
+                line-height: 30.13*1vw*0.052083
+                text-transform: uppercase
+                /* Text style for "SS 2020" */
+                letter-spacing: 1.67*1vw*0.052083
+                margin-bottom: 43*1vw*0.052083
+            .first_parag
+                /* Style for "Тщеславие" */
+                width: 414*1vw*0.052083
+                height: 44*1vw*0.052083
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                /* Text style for "Тщеславие" */
+                letter-spacing: 0.8*1vw*0.052083
+                margin-bottom: 42*1vw*0.052083
+            .img 
+                display: flex 
+                justify-content: center
+                align-items: center
+                /* Style for "Layer 22" */
+                width: 900*1vw*0.052083
+                height: 600*1vw*0.052083
+                background: url("../img/stories-second-block-right.jpg") no-repeat 52% 41%
+                margin-bottom: 28*1vw*0.052083
+                p 
+                    /* Style for "MILANO CAM" */
+                    text-align: center
+                    width: 181*1vw*0.052083
+                    height: 57*1vw*0.052083
+                    color: #ffffff
+                    font-family: "Gals Light"
+                    font-size: 22*1vw*0.052083
+                    font-weight: bold
+                    line-height: 32.25*1vw*0.052083
+                    text-transform: uppercase
+                    /* Text style for "MILANO" */
+                    font-size: 34*1vw*0.052083
+                    letter-spacing: 1.39*1vw*0.052083
+                    text-transform: uppercase
+                    /* Text style for "CAMPAIGN 2" */
+                    letter-spacing: 0.89*1vw*0.052083
+            .img_title 
+                /* Style for "Discover F" */
+                width: 89*1vw*0.052083
+                height: 9*1vw*0.052083
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                /* Text style for "Discover F" */
+                letter-spacing: 0.8*1vw*0.052083
+                margin-bottom: 85*1vw*0.052083
+            .last_parag
+                /* Style for "Giuoco Pia" */
+                width: 473*1vw*0.052083
+                height: 29*1vw*0.052083
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                /* Text style for "Giuoco Pia" */
+                letter-spacing: 0.8*1vw*0.052083
+    .third_block
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        padding: 0 48*1vw*0.052083 85*1vw*0.052083 24*1vw*0.052083
+        .left_side
+            .title
+                color: #000000
+                font-family: "Minion Pro"
+                font-size: 30*1vw*0.052083
+                font-weight: 400
+                line-height: 30.13*1vw*0.052083
+                text-transform: uppercase
+                /* Text style for "SS 2020" */
+                letter-spacing: 1.67*1vw*0.052083
+                margin-bottom: 33*1vw*0.052083
+                margin-left: 424*1vw*0.052083 
+            .first_parag
+                /* Style for "Тщеславие" */
+                width: 414*1vw*0.052083
+                height: 44*1vw*0.052083
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                /* Text style for "Тщеславие" */
+                letter-spacing: 0.8*1vw*0.052083
+                margin-bottom: 60*1vw*0.052083
+                margin-left: 421*1vw*0.052083
+            .img
+                width: 1065*1vw*0.052083
+                height: 709*1vw*0.052083
+                display: flex
+                justify-content: center
+                align-items: center
+                background: url("../img/stories-third-block-left.jpg")
+                margin-bottom: 14*1vw*0.052083
+                p 
+                    text-align: center
+                    color: #ffffff
+                    font-family: "Gals Light"
+                    font-size: 22*1vw*0.052083
+                    font-weight: bold
+                    line-height: 32.25*1vw*0.052083
+                    text-transform: uppercase
+                    /* Text style for "MILANO" */
+                    font-size: 34*1vw*0.052083
+                    letter-spacing: 1.39*1vw*0.052083
+                    text-transform: uppercase
+                    /* Text style for "CAMPAIGN 2" */
+                    letter-spacing: 0.89*1vw*0.052083
+            p 
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                /* Text style for "Discover F" */
+                letter-spacing: 0.8*1vw*0.052083
+        .right_side
+            .video 
+                /* Style for "Layer 23" */
+                width: 609*1vw*0.052083
+                height: 912*1vw*0.052083
+                border: 1*1vw*0.052083 solid red
+                margin-bottom: 20*1vw*0.052083
+            .img_title 
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                /* Text style for "Discover F" */
+                letter-spacing: 0.8*1vw*0.052083
+                margin-left: 58*1vw*0.052083
+.spring_summer
+    padding-top: 104*1vw*0.052083
+    padding-bottom: 48*1vw*0.052083
+    background: #f5f2ef
+    .img_title
+            /* Style for "Discover S" */
+            color: #000000
+            font-family: "Gals Light"
+            font-size: 12*1vw*0.052083
+            font-weight: bold
+            line-height: 16.19*1vw*0.052083
+            /* Text style for "Discover S" */
+            letter-spacing: 0.8*1vw*0.052083
+    .first_block
+        margin-bottom: 200*1vw*0.052083
+
+        .title
+            color: #000000
+            font-family: "Gals Light"
+            font-size: 30*1vw*0.052083
+            font-weight: 400
+            line-height: 30.13*1vw*0.052083
+            text-transform: uppercase
+            /* Text style for "SS 2020" */
+            letter-spacing: 1.67*1vw*0.052083
+            margin-left: 495*1vw*0.052083
+            margin-bottom: 58*1vw*0.052083
+            
+        .video
+            border: 1px solid red
+            /* Style for "Layer 7" */
+            width: 1110*1vw*0.052083
+            height: 625*1vw*0.052083
+            margin-left: 276*1vw*0.052083
+            margin-bottom: 39*1vw*0.052083
+        .first_parag, .last_parag
+            width: 414*1vw*0.052083
+            color: #000000
+            font-family: "Gals Light"
+            font-size: 12*1vw*0.052083
+            font-weight: bold
+            line-height: 16.19*1vw*0.052083
+            /* Text style for "Тщеславие" */
+            letter-spacing: 0.8*1vw*0.052083
+            margin-left: 492*1vw*0.052083
+        .first_parag 
+            margin-bottom: 22*3vw*0.052083
+    .second_block
+        display: flex
+        justify-content: space-between
+        padding: 0 82*1vw*0.052083 0 192*1vw*0.052083
+        margin-bottom: 173*1vw*0.052083
+        img
+            margin-bottom: 24*1vw*0.052083
+        
+        .left_side
+            img 
+                /* Style for "5461" */
+                width: 592*1vw*0.052083
+        .right_side
+            img
+                width: 878*1vw*0.052083
+                margin-top: 150*1vw*0.052083
+    .third_block
+        padding: 0 356*1vw*0.052083
+        margin-bottom: 153*1vw*0.052083
+        img 
+            width: 1196*1vw*0.052083
+            margin-bottom: 22*1vw*0.052083
+    .fourth_block
+        display: flex
+        justify-content: space-between 
+        padding: 0 223*1vw*0.052083 0 108*1vw*0.052083
+        .left_side
+            img 
+                margin-bottom: 17*1vw*0.052083
+                width: 593*1vw*0.052083
+        .right_side
+            img 
+                margin-top: 117*1vw*0.052083
+                margin-bottom: 17*1vw*0.052083
+                width: 594*1vw*0.052083
+
+.designer_page
+    padding-top: 112*1vw*0.052083
+    background: #f5f2ef
+    padding-bottom: 100*1vw*0.052083
+    .first_parag, .last_parag
+        width: 413*1vw*0.052083
+        color: #000000
+        font-family: "Gals Light"
+        font-size: 12*1vw*0.052083
+        font-weight: bold
+        line-height: 16.19*1vw*0.052083
+        /* Text style for "Тщеславие" */
+        letter-spacing: 0.8*1vw*0.052083
+    .first_parag 
+        margin-bottom: 25*1vw*0.052083
+    .title
+        width: 174*1vw*0.052083
+        color: #000000
+        font-family: "Gals light"
+        font-size: 30*1vw*0.052083
+        font-weight: 400
+        line-height: 30.13*1vw*0.052083
+        text-transform: uppercase
+        /* Text style for "INTERVIEW" */
+        letter-spacing: 1.67*1vw*0.052083
+        margin-left: 365*1vw*0.052083
+        margin-bottom: 58*1vw*0.052083
+    .first_block
+        display: flex
+        justify-content: space-between
+        align-items: top 
+        padding: 0 120*1vw*0.052083 0 145*1vw*0.052083
+        margin-bottom: 262*1vw*0.052083
+        .left_side
+            .video
+                /* Style for "Layer 20" */
+                width: 1110*1vw*0.052083
+                height: 625*1vw*0.052083
+                border: 1*1vw*0.052083 solid red
+        .right_side
+            .first_parag
+                margin-top: 287*1vw*0.052083
+            
+    .second_block
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        padding: 0 120*1vw*0.052083 0 108*1vw*0.052083
+        margin-bottom: 312*1vw*0.052083
+        img 
+            &:first-child
+                width: 856*1vw*0.052083
+                margin-top: 129*1vw*0.052083
+            &:last-child
+                width: 582*1vw*0.052083
+    .third_block
+        display: flex
+        justify-content: space-between
+        align-items: top
+        padding: 0 81*1vw*0.052083 0 179*1vw*0.052083
+        margin-bottom: 234*1vw*0.052083
+        .left_side
+            .img 
+                width: 583*1vw*0.052083
+                height: 874*1vw*0.052083
+                background-size: 120vw
+                background: url(../img/designer-third-block-left.png) 49% 0%
+        .right_side
+            img 
+                width: 874*1vw*0.052083
+                margin-top: 50*1vw*0.052083
+                margin-bottom: 142*1vw*0.052083
+            .first_parag, .last_parag
+                margin-left: 234*1vw*0.052083
+    .fourth_block
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        margin-bottom: 177*1vw*0.052083
+        .left_side 
+            margin-top: 221*1vw*0.052083
+            p 
+                width: 325*1vw*0.052083
+                margin-left: 177*1vw*0.052083
+        .right_side
+            img
+                width: 1137*1vw*0.052083
+    .five_block
+        display: flex 
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 264*1vw*0.052083
+        img 
+            &:first-child 
+                width: 857*1vw*0.052083
+            &:last-child
+                width: 855*1vw*0.052083
+                margin-top: 246*1vw*0.052083
+    .six_block
+        margin-bottom: 226*1vw*0.052083
+        img 
+            margin-left: 394*1vw*0.052083
+            width: 1143*1vw*0.052083
+            margin-bottom: 65*1vw*0.052083
+        .first_parag, .last_parag
+            width: 414*1vw*0.052083
+            margin-left: 621*1vw*0.052083
+    .seven_block
+        img
+            width: 600*1vw*0.052083
+            margin-left: 660*1vw*0.052083
+.shop_page
+    padding: 40*1vw*0.052083 52*1vw*0.052083
+    background: #f5f2ef url(../img/shop-logo.png) no-repeat 86vw 1vw
+    background-size: 13vw
+
+    nav 
+        margin-bottom: 22*1vw*0.052083
+        ul 
+            li
+                display: inline-block
+                /* Style for "All" */
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                /* Text style for "All" */
+                letter-spacing: 0.8*1vw*0.052083
+                &:not(:last-child)
+                    margin-right: 62*1vw*0.052083
+                &:hover
+                    border-bottom: 1*1vw*0.052083 solid #000000
+    .marketplace
+        display: flex
+        justify-content: flex-start
+        align-items: top
+        .categories
+            margin-top: 111*1vw*0.052083
+            width: 86*1vw*0.052083
+            margin-right: 57*1vw*0.052083
+            ul 
+                li 
+                    color: #000000
+                    font-family: "Gals Light"
+                    font-size: 12*1vw*0.052083
+                    font-weight: bold
+                    line-height: 35.19*1vw*0.052083
+                    text-transform: uppercase
+                    /* Text style for "ALL ,  ," */
+                    letter-spacing: 0.8*1vw*0.052083
+                    &:hover
+                        border-bottom: 1*1vw*0.052083 solid #000000
+        .items
+            .first_line, .second_line
+                display: flex 
+                justify-content: flex-start
+                align-items: top
+            .first_line
+                margin-bottom: 88*1vw*0.052083
+            .item
+                &:nth-child(1),
+                &:nth-child(3),
+                &:nth-child(4),
+                &:nth-child(6)
+                    margin-top: 77*1vw*0.052083
+                &:not(&:nth-child(3)) ,
+                &:not(:nth-child(6))
+                    margin-right: 42*1vw*0.052083
+                    
+                img
+                    width: 508*1vw*0.052083
+                    margin-bottom: 22*1vw*0.052083
+                .item_title
+                    color: #000000
+                    font-family: "Gals Light"
+                    font-size: 12*1vw*0.052083
+                    font-weight: bold
+                    line-height: 16.19*1vw*0.052083
+                    /* Text style for "SS 20 , Mo" */
+                    letter-spacing: 0.8*1vw*0.052083
+.item_page 
+    background: #f5f2ef url(../img/shop-logo.png) no-repeat 84vw 1vw
+    background-size: 13vw
+    padding: 40*1vw*0.052083 0 0 52*1vw*0.052083 
+    .mobile__block
+        display: none
+    nav 
+        
+        ul
+            width: 326*1vw*0.052083
+            display: flex
+            justify-content: space-between
+            align-items: center
+            li
+                min-width: 35*1vw*0.052083
+                a 
+                    color: #000000
+                    font-family: "Gals Light"
+                    font-size: 12*1vw*0.052083
+                    font-weight: bold
+                    line-height: 16.19*1vw*0.052083
+                    /* Text style for "Suits" */
+                    letter-spacing: 0.8*1vw*0.052083
+                    text-decoration: none
+    .active
+        border-bottom: 1*1vw*0.052083 solid #000000
+    .item 
+        display: flex 
+        justify-content: flex-start
+        align-items: top
+        padding-bottom: 172*1vw*0.052083
+    
+        .specifications
+            margin-top: 231*1vw*0.052083
+            margin-left: 87*1vw*0.052083
+            p
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                text-transform: uppercase
+                /* Text style for "jumper" */
+                letter-spacing: 0.8*1vw*0.052083
+            .title 
+                margin-bottom: 22*1vw*0.052083
+            .code
+                margin-bottom: 20*1vw*0.052083
+            .cost
+                font-size: 14*1vw*0.052083
+                margin-bottom: 27*1vw*0.052083
+            .choose
+                width: 158*1vw*0.052083
+                display: flex
+                justify-content: space-between
+                align-items: top
+                margin-bottom: 37*1vw*0.052083
+                .quantity, .colour
+                    display: flex
+                    flex-direction: column
+                    align-items: center 
+                    justify-content: center
+                    p 
+                        margin-bottom: 9*1vw*0.052083
+                .quantity
+                    &__input
+                        width: 21*1vw*0.052083
+                        height: 18*1vw*0.052083
+                        border: 1*1vw*0.052083 solid #000000
+                        text-align: center
+                        color: #000000
+                        font-family: "Gals Light"
+                        font-size: 12*1vw*0.052083
+                        font-weight: bold
+                        line-height: 16.19*1vw*0.052083
+                        /* Text style for "1" */
+                        letter-spacing: 0.8*1vw*0.052083
+                .colour
+                    .color
+                        width: 21*1vw*0.052083+2*1vw*0.052083
+                        height: 22*1vw*0.052083+2*1vw*0.052083
+                        background-color: #567fbc
+            input[type="radio"]
+                display: none 
+            .size 
+                margin-bottom: 14*1vw*0.052083
+            label
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                /* Text style for "123456 ," */
+                letter-spacing: 0.8*1vw*0.052083
+                margin-right: 20*1vw*0.052083
+                margin-bottom: 26*1vw*0.052083
+            .choose_size_button
+                margin-bottom: 26*1vw*0.052083
+            button 
+                display: block
+                width: 199*1vw*0.052083
+                height: 33*1vw*0.052083
+                background-color: #d3d3d3
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 12*1vw*0.052083
+                font-weight: bold
+                line-height: 16.19*1vw*0.052083
+                text-transform: uppercase
+                /* Text style for "SELECT A S" */
+                letter-spacing: 0.8*1vw*0.052083
+                box-shadow: none
+                border: none
+        img 
+            &:nth-child(1)
+                width: 508*1vw*0.052083
+                margin-left: 72*1vw*0.052083
+                margin-top: 126*1vw*0.052083
+                margin-right: 88*1vw*0.052083
+            &:nth-child(2)
+                width: 510*1vw*0.052083
+                margin-top: 22*1vw*0.052083
+                
+            &:nth-child(4)
+                width: 441*1vw*0.052083
+                position: relative
+                bottom: 35*1vw*0.052083
+                margin-left: 139*1vw*0.052083
+                margin-right: 88*1vw*0.052083
+                
+        .parag
+            /* Style for "In the for" */
+            width: 543*1vw*0.052083
+            margin-left: 727*1vw*0.052083
+            color: #000000
+            font-family: "Gals Light"
+            font-size: 12*1vw*0.052083
+            font-weight: bold
+            line-height: 16.19*1vw*0.052083
+            /* Text style for "In the for" */
+            letter-spacing: 0.8*1vw*0.052083
+        .video
+            display: inline-block
+            vertical-align: top
+            width: 435*1vw*0.052083
+            height: 654*1vw*0.052083
+            border: 1*1vw*0.052083 solid red
+            margin-top: 145*1vw*0.052083
+.compagne 
+    padding-top: 77*1vw*0.052083
+    background: #f5f2ef
+    p 
+        color: #000000
+        font-family: "Gals Light"
+        font-size: 12*1vw*0.052083
+        font-weight: bold
+        line-height: 16.19*1vw*0.052083
+        /* Text style for "1.e4 e5 2." */
+        letter-spacing: 0.8*1vw*0.052083
+    .block_title
+        font-size: 34*1vw*0.052083
+        text-transform: uppercase
+    &__first_block
+        display: flex
+        justify-content: space-between
+        background: url("../img/compagne-first-block-left-bg.png") no-repeat 28vw 0vw
+        background-size: 28vw
+        margin-bottom: 117*1vw*0.052083
+        &__left_side
+            margin-left: 251*1vw*0.052083
+            .block_title
+                margin-bottom: 20*1vw*0.052083
+                margin-top: 204*1vw*0.052083
+            .first_parag
+                margin-left: 26*1vw*0.052083
+                margin-bottom: 51*1vw*0.052083
+            .second_parag
+                margin-left: 102*1vw*0.052083 
+                margin-bottom: 48*1vw*0.052083
+            img 
+                margin-left: 94*1vw*0.052083
+        &__right_side
+            img
+                width: 589*1vw*0.052083
+                margin-right: 220*1vw*0.052083
+                margin-bottom: 15*1vw*0.052083
+    &__second_block
+        display: flex
+        justify-content: space-between
+        margin-bottom: 216*1vw*0.052083
+        &__left_side
+            margin-left: 174*1vw*0.052083
+            img 
+                width: 592*1vw*0.052083
+                margin-bottom: 24*1vw*0.052083
+        &__right_side
+            margin-right: 82*1vw*0.052083
+            margin-top: 151*1vw*0.052083
+            img
+                width: 878*1vw*0.052083
+                margin-bottom: 19*1vw*0.052083
+    &__third_block
+        margin-bottom: 222*1vw*0.052083
+        .video
+            width: 1232*1vw*0.052083
+            height: 821*1vw*0.052083
+            border: 1*1vw*0.052083 solid red
+            margin-left: 349*1vw*0.052083
+    &__fourth_block
+        display: flex
+        justify-content: space-between
+        align-items: top
+        &__left_side
+            img 
+                width: 877*1vw*0.052083
+                margin-bottom: 27*1vw*0.052083
+            .img_title
+                margin-left: 213*1vw*0.052083
+        &__right_side
+            img 
+                width: 880*1vw*0.052083
+                margin-top: 217*1vw*0.052083
+                margin-bottom: 30*1vw*0.052083
+    &__five_block
+        display: flex
+        justify-content: flex-start
+        align-items: top
+        background: url(../img/compagne-five-block-right-bg.png) no-repeat 71vw 4vw
+        padding-top: 300*1vw*0.052083
+        background-size: 47vw
+        margin-bottom: 127*1vw*0.052083
+        &__left_side
+            img
+                margin-bottom: 32*1vw*0.052083
+                width: 1021*1vw*0.052083
+            .img_title
+                margin-left: 213*1vw*0.052083
+        &__right_side
+            .block_title
+                margin-top: 91*1vw*0.052083
+                margin-bottom: 20*1vw*0.052083
+                margin-left: 303*1vw*0.052083
+            .first_parag
+                margin-left: 250*1vw*0.052083
+                margin-bottom: 33*1vw*0.052083
+            .second_parag
+                margin-left: 326*1vw*0.052083
+                margin-bottom: 49*1vw*0.052083
+            img 
+                margin-left: 310*1vw*0.052083
+                width: 275*1vw*0.052083
+    &__six_block
+        display: flex
+        justify-content: space-between
+        margin-bottom: 154*1vw*0.052083
+        &__left_side
+            margin-left: 108*1vw*0.052083
+            margin-top: 97*1vw*0.052083
+            img
+                margin-bottom: 23*1vw*0.052083
+                width: 595*1vw*0.052083
+        &__right_side
+            margin-right: 163*1vw*0.052083
+            img 
+                width: 596*1vw*0.052083
+                margin-bottom: 23*1vw*0.052083
+    &__seven_block
+        display: flex
+        justify-content: space-between
+        align-items: top
+        margin-bottom: 250*1vw*0.052083
+        &__left_side
+            margin-left: 174*1vw*0.052083
+            margin-top: 84*1vw*0.052083
+            .video 
+                width: 954*1vw*0.052083
+                height: 636*1vw*0.052083
+                margin-bottom: 67*1vw*0.052083
+                border: 1*1vw*0.052083 solid red
+        &__right_side
+            margin-right: 63*1vw*0.052083
+            img 
+                width: 618*1vw*0.052083
+    &__eight_block
+        padding-left: 334*1vw*0.052083
+        margin-bottom: 161*1vw*0.052083
+        img 
+            width: 1226*1vw*0.052083
+            margin-bottom: 18*1vw*0.052083
+    &__nine_block 
+        display: flex
+        justify-content: space-between
+        align-items: top
+        margin-bottom: 52*1vw*0.052083
+        
+        &__left_side
+            background: url("../img/compagne-nine-block-left-bg.png") no-repeat -4vw -2vw
+            background-size: 28vw
+            .block_title
+                margin-top: 212*1vw*0.052083
+                margin-left: 345*1vw*0.052083
+                margin-bottom: 20*1vw*0.052083
+            .first_parag
+                margin-left: 278*1vw*0.052083
+                margin-bottom: 49*1vw*0.052083
+            .second_parag
+                margin-left: 354*1vw*0.052083
+                margin-bottom: 65*1vw*0.052083
+            img
+                margin-left: 342*1vw*0.052083 
+                width: 275*1vw*0.052083
+                border: 2*1vw*0.052083 solid #000000
+        &__right_side
+            margin-right: 318*1vw*0.052083
+            img    
+                width: 592*1vw*0.052083
+                margin-bottom: 23*1vw*0.052083
+    &__ten_block
+        display: flex
+        justify-content: space-between
+        align-items: top 
+        margin-bottom: 222*1vw*0.052083
+        &__left_side
+            img 
+                width: 594*1vw*0.052083
+                margin-bottom: 61*1vw*0.052083
+            .img_title
+                margin-left: 171*1vw*0.052083
+        &__right_side
+            img 
+                margin-top: 192*1vw*0.052083
+                margin-right: 134*1vw*0.052083
+                width: 876*1vw*0.052083
+                margin-bottom: 32*1vw*0.052083
+    &__eleven_block
+        padding-left: 142*1vw*0.052083 
+        padding-bottom: 255*1vw*0.052083
+        background: url(../img/compagne-eleven-block-bg.png) no-repeat 75vw 1vw
+        background-size: 31vw
+        .video
+            width: 1146*1vw*0.052083
+            height: 764*1vw*0.052083
+            border: 1*1vw*0.052083 solid red
+            margin-bottom: 32px
+    &__twelve_block
+        display: flex
+        justify-content: space-between
+        align-items: top
+        padding-bottom: 39*1vw*0.052083
+        &__left_side
+            margin-left: 142*1vw*0.052083
+            img 
+                width: 590*1vw*0.052083
+                margin-bottom: 32*1vw*0.052083
+        &__right_side
+            margin-right: 152*1vw*0.052083
+            img 
+                margin-top: 121*1vw*0.052083
+                width: 874*1vw*0.052083
+                margin-bottom: 22*1vw*0.052083
+            
+
+
+
+        
+
+
+            
+
+
+                    
+
+
+    
+        
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 960px)
+    .menu
+        width: 95.353vw
+    .main_page
+        &__header
+            p
+               font-size: 0.9vw 
+    .menu
+        &__header
+            p
+                font-size: 0.9vw
+        .footer
+            form
+                label
+                    font-size: 0.9vw
+                input
+                    width: 12.5vw
+                    font-size: 0.9vw
+            p
+                font-size: 0.8vw
+    .page
+        p 
+            font-size: 1vw !important
+    .contact_page
+        .adres 
+            &__map
+            &__street
+                .shop
+                    .shop_adres
+                        font-size: 16*1vw*0.052083
+                        line-height: 18.19*1vw*0.052083
+        .second_block
+            p 
+                width: 220*1vw*0.052083
+                font-size: 20*1vw*0.052083
+                line-height: 20*1vw*0.052083
+        .third_block
+            p
+                width: 662*1vw*0.052083
+                font-size: 20*1vw*0.052083
+                line-height: 20*1vw*0.052083
+        .fourth_block 
+            display: flex 
+            justify-content: space-between
+            align-items: flex-start
+            img
+                &:first-child
+                    width: 1090*1vw*0.052083
+                &:last-child
+                    margin-top: 44*1vw*0.052083
+                    width: 732*1vw*0.052083
+    .outlet_page
+        p 
+            font-size: 18*1vw*0.052083 !important
+    
+    .stories_page
+        .first_block
+            .left_side
+                p 
+                    font-size: 12*1vw*0.052083
+                    line-height: 16.19*1vw*0.052083
+                .title_img
+                    font-size: 18*1vw*0.052083
+                    line-height: 30.13*1vw*0.052083
+            .right_side
+                .first_parag, .second_parag, .third_parag
+                    font-size: 18*1vw*0.052083
+                    line-height: 18.19*1vw*0.052083
+        .second_block
+            margin-bottom: 85*1vw*0.052083
+            .left_side
+                .img_title
+                    font-size: 16*1vw*0.052083
+                    line-height: 16.19*1vw*0.052083
+            .right_side
+                .title
+                    font-size: 30*1vw*0.052083
+                    line-height: 30.13*1vw*0.052083
+                .first_parag, .last_parag, .img_title 
+                    font-size: 16*1vw*0.052083
+                    line-height: 18.19*1vw*0.052083
+                    p 
+                        font-size: 22*1vw*0.052083
+                        line-height: 32.25*1vw*0.052083
+        .third_block
+            .left_side
+                .img_title
+                    font-size: 16*1vw*0.052083
+                .first_parag
+                    font-size: 16*1vw*0.052083
+                    line-height: 18.19*1vw*0.052083
+                    width: 450*1vw*0.052083
+                    margin-bottom: 80*1vw*0.052083
+                p 
+                    color: #000000
+                    font-family: "Gals Light"
+                    font-size: 12*1vw*0.052083
+                    font-weight: bold
+                    line-height: 16.19*1vw*0.052083
+                    /* Text style for "Discover F" */
+                    letter-spacing: 0.8*1vw*0.052083
+            .right_side
+                .img_title 
+                    font-size: 16*1vw*0.052083
+                    line-height: 16.19*1vw*0.052083
+    .spring_summer
+        .img_title
+            font-size: 18*1vw*0.052083
+        .first_block
+            .first_parag, .last_parag
+                text-align: justify
+                width: 600*1vw*0.052083
+                font-size: 28*1vw*0.052083 
+                line-height: 22.19*1vw*0.052083
+    .designer_page
+        .first_parag, .last_parag
+            width: 413*1vw*0.052083
+            font-size: 18*1vw*0.052083
+            line-height: 18.19*1vw*0.052083
+            text-align: justify
+    .shop_page
+        nav
+            ul 
+                li 
+                    font-size: 16*1vw*0.052083
+                    line-height: 25.19*1vw*0.052083
+        .marketplace
+            .categories
+                ul
+                    li 
+                        font-size: 16*1vw*0.052083
+    .item_page
+        nav 
+            ul 
+                li 
+                    a 
+                        font-size: 16*1vw*0.052083
+        .item
+            .specifications
+                p 
+                    font-size: 16*1vw*0.052083 !important
+                label 
+                    font-size: 16*1vw*0.052083
+            .parag
+                font-size: 16*1vw*0.052083
+                line-height: 18.19*1vw*0.052083
+    .compagne
+        &__first_block
+            background: url(../img/compagne-first-block-left-bg.png) no-repeat 36vw 0vw
+            background-size: 28vw
+        p 
+            font-size: 18*1vw*0.052083
+
+
+
+
+
+
+
+@media screen and (max-width: 640px)
+    .main_page
+        background: url(../img/mobile-vackground.png), url(../img/mobile-background.jpg)
+        background-size: 114%, 118%
+        background-position: 14% 0%, 90% 100%
+        background-repeat: no-repeat
+        height: 990*3vw*0.052083
+        
+        &__header
+            padding: 0 5vw
+            height: 74*3vw*0.052083
+            p
+                font-size: 2vw
+        &__look_block
+            display: block
+            .left_block
+                margin-top: 28vw
+                p 
+                    font-size: 6vw
+                    letter-spacing: 0.4vw
+                    line-height: 3.6vw
+                    span 
+                        font-size: 4vw
+            .right_block
+                margin-top: 63vw
+                p 
+                    font-size: 6vw
+                    letter-spacing: 0.3vw
+                    line-height: 3.6vw
+                    span 
+                        font-size: 4vw
+    .menu
+        background: #2e1b1e
+        padding: 0
+        position: absolute 
+        width: 100vw   
+        &__header
+            background: #2e1b1e
+            padding: 5vw
+            p 
+                font-size: 2vw !important
+        &__links
+            margin: 0 0 0 0 !important
+            padding: 12.2vw 0 31.3vw 0 !important
+            background: #2e1b1e url(../img/background-menu.png) no-repeat
+            background-size: 159%
+            background-position: 81% 1%
+            .line
+                margin: 0 !important
+                padding: 0 !important
+                p 
+                    text-align: center
+                    display: block !important
+                    font-size: 5vw
+                    font-weight: 100
+                    margin: 0 0 9.1vw 0 !important
+        .footer
+            display: none
+        img 
+                position: absolute
+                bottom: 7vw
+                width: 38.45vw
+                left: 41.7vw
+    .page
+        padding: 0 0 14vw 7vw
+        margin: 0
+        &__first_block
+            padding: 0
+            display: block
+            margin-bottom: 8.475vw
+            p 
+                padding: 10vw 0 0 12vw
+                font-size: 16*3vw/19.2 !important
+                line-height: 3.5vw
+                text-align: justify
+                letter-spacing: 0.276vw
+                margin-bottom: 8vw
+            .img_block
+                
+                img 
+                    padding: 0 
+                    margin: 0 0 3.5vw 0 
+                    width: 87vw
+                p 
+                    font-size: 2.8vw !important
+        &__second_block
+            margin: 0 0 9.6vw 0
+            padding: 0
+            flex-direction: column-reverse;
+            .video 
+                margin: 0 
+                padding: 0
+                width: 86.5vw
+                height: 48.8vw
+            img 
+                width: 86.9vw
+                margin: 0 0 4.4vw 0 
+            .img_block
+                margin-bottom: 9.7vw
+                p 
+                    font-size: 2.8vw !important
+        &__third_block
+            flex-direction: column-reverse
+            padding: 0
+            margin: 0 0 8vw 0
+            p 
+                font-size: 2.8vw !important
+
+            .left_img_block
+                padding: 0 
+                margin: 0
+                img 
+                    width: 86.7vw
+                    margin-bottom: 5.2vw
+                p 
+                    line-height: 3.5vw
+            .right_img_block
+                padding: 0
+                margin: 0
+                margin-bottom: 9.2vw
+                img
+                    width: 86.7vw
+                    margin-bottom: 5.2vw
+        &__fourth_block
+            flex-direction: column
+            margin: 0
+            padding: 0
+            .left_block
+                margin: 0
+                padding: 0
+                margin-bottom: 8.2vw
+                .video
+                    width: 87vw
+                    height:  48.7vw
+                    margin: 0
+                    padding: 0
+                    margin-bottom: 5.2vw
+                p 
+                    font-size: 2.8vw !important
+            .right_blcok
+                margin: 0
+                padding: 0
+                img
+                    width: 86.7vw
+                    margin-bottom: 4.7vw
+                p 
+                    font-size: 2.8vw !important
+    .mobile_footer
+        background: #f5f2ef 
+        padding: 1vw 8.5vw
+        display: block
+        &__form
+            margin-bottom: 1vw
+            label
+                display: block
+                margin-bottom: 1.8vw
+                font-family: "Gals Light"
+                font-size: 2.8vw
+                font-weight: bold
+                text-transform: uppercase
+                /* Text style for "NEWSLETTER" */
+                letter-spacing: (0.8vw/19.2)
+            input 
+                width: 86.7vw
+                height: 5.04167vw
+                margin-bottom: 5vw
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 2.8vw
+                font-weight: bold
+                text-transform: uppercase
+                /* Text style for "NEWSLETTER" */
+                letter-spacing: (1.5vw/19.2)
+                background: none
+                border: none
+                border-bottom: (2vw/19.2) solid #000000
+            div 
+                display: flex
+                flex-direction: column-reverse
+                p 
+                    margin: 0
+                    font-family: "Gals Light"
+                    font-size: 2.8vw
+                    font-weight: bold
+                    text-transform: uppercase
+                p:nth-child(2) 
+                    margin-bottom: 8vw !important
+    .contact_page
+        .adres
+            flex-direction: column-reverse
+            padding: 0 55*3vw*0.052083
+            margin-bottom: 51*3vw*0.052083
+            &__map
+                /* Style for "Layer 19" */
+                width: 548*3vw*0.052083
+                height: 511*3vw*0.052083
+            &__street
+                margin-bottom: 96*3vw*0.052083
+                
+                .shop
+                    &:first-child
+                        margin-bottom: 86*3vw*0.052083
+                    .title_shop
+                        font-size: 30*3vw*0.052083
+                        margin-bottom: 66*3vw*0.052083
+                    .shop_adres
+                        font-size: 18*3vw*0.052083
+                        line-height: 21.59*3vw*0.052083
+                        margin-bottom: 46*3vw*0.052083
+                    button
+                        font-size: 18*3vw*0.052083
+                        width: 532*3vw*0.052083
+                        height: 60*3vw*0.052083
+        .second_block
+            flex-direction: column-reverse
+            padding: 0 45*3vw*0.052083
+            img 
+                width: 546*3vw*0.052083
+                margin-bottom: 60*3vw*0.052083
+            p 
+                width: 255*3vw*0.052083
+                font-size: 18*3vw*0.052083
+                line-height: 21.59*3vw*0.052083
+                letter-spacing: 0.9*3vw*0.052083
+                margin: 0 auto
+        .third_block 
+            padding: 0 45*3vw*0.052083
+            margin-bottom: 65*3vw*0.052083
+            p
+                width: 539*3vw*0.052083
+                font-size: 18*3vw*0.052083
+                line-height: 21.59*3vw*0.052083
+                /* Text style for "The store" */
+                letter-spacing: 0.9*3vw*0.052083
+                position: relative
+                top: 403*3vw*0.052083
+        .fourth_block 
+            padding: 0 45*3vw*0.052083
+            flex-direction: column
+            img
+                &:first-child
+                    width: 547*3vw*0.052083
+                    position: relative
+                    bottom: 239*3vw*0.052083
+                &:last-child
+                    width: 547*3vw*0.052083
+    .outlet_page
+        padding: 71*3vw*0.052083 54*3vw*0.052083
+        p 
+            font-size: 18*3vw*0.052083 !important
+            line-height: 21.59*3vw*0.052083 !important
+        img 
+            width: 531*3vw*0.052083 !important
+            margin-bottom: 50*3vw*0.052083 !important
+        &__first_block
+            padding: 0
+            margin: 0
+            display: block
+            margin-bottom: 58*3vw*0.052083
+            .look 
+                &:first-child
+                    margin-bottom: 75*3vw*0.052083
+        &__second_block
+            padding: 0
+            margin: 0 
+            margin-bottom: 66*3vw*0.052083
+        &__third_block
+            display: block
+            padding: 0
+            margin: 0
+            margin-bottom: 85*3vw*0.052083
+            .look
+                &:first-child
+                    margin-bottom: 76*3vw*0.052083
+                &:last-child
+                    display: flex
+                    flex-direction: column-reverse
+    .stories_page
+        padding-top: 92*3vw*0.052083
+        .first_block
+            display: block
+            padding: 0 44*3vw*0.052083
+            margin-bottom: 60*3vw*0.052083
+            .left_side
+                margin-bottom: 65*3vw*0.052083
+                .img
+                    width: 550*3vw*0.052083
+                    height: 366*3vw*0.052083
+                    p 
+                        font-size: 28*3vw*0.052083
+                        line-height: 25.06*3vw*0.052083
+                .title_img
+                    font-size: 18*3vw*0.052083
+                    line-height: 21.59*3vw*0.052083
+            .right_side
+                .title
+                    font-size: 20*3vw*0.052083
+                    margin-bottom: 45*3vw*0.052083
+                .first_parag, .second_parag
+                    font-size: 18*3vw*0.052083
+                    line-height: 21.59*3vw*0.052083
+                    width: 533*3vw*0.052083
+                .first_parag
+                    margin-bottom: 33*3vw*0.052083
+                .third_parag
+                    display: none
+        .second_block
+            display: block
+            margin-bottom: 132*3vw*0.052083
+            .left_side
+                margin-bottom: 65*3vw*0.052083
+                .img
+                    background: url("../img/stories-second-block-left.jpg")
+                    background-size: 100%
+                    width: 548*3vw*0.052083
+                    height: 781*3vw*0.052083
+                    p 
+                        font-size: 18*3vw*0.052083
+                        line-height: 25*3vw*0.052083
+                .img_title
+                    font-size: 18*3vw*0.052083
+                    line-height: 21.59*3vw*0.052083
+            .right_side
+                .title
+                    font-size: 20*3vw*0.052083
+                    line-height: 40.18*3vw*0.052083
+                    margin-bottom: 45*3vw*0.052083
+                .first_parag
+                    width: 533*3vw*0.052083
+                    height: 104*3vw*0.052083
+                    font-size: 18*3vw*0.052083
+                    line-height: 21.59*3vw*0.052083
+                    letter-spacing: 0.9*3vw*0.052083
+                    margin-bottom: 50*3vw*0.052083
+                .img
+                    width: 554*3vw*0.052083
+                    height: 369*3vw*0.052083
+                    margin-bottom: 38*3vw*0.052083
+                    p 
+                        width: 150*3vw*0.052083
+                        text-align: center
+                        font-size: 18*3vw*0.052083
+                        line-height: 25*3vw*0.052083
+                        height: 46*3vw*0.052083
+                .img_title
+                    width: 131*3vw*0.052083
+                    height: 13*3vw*0.052083
+                    font-size: 18*3vw*0.052083
+                    line-height: 21.59*3vw*0.052083
+                    letter-spacing: 0.9*3vw*0.052083
+                    margin-bottom: 54*3vw*0.052083
+                .last_parag
+                    /* Style for "Giuoco Pia" */
+                    width: 520*3vw*0.052083
+                    height: 39*3vw*0.052083
+                    font-size: 18*3vw*0.052083
+                    line-height: 21.59*3vw*0.052083
+                    letter-spacing: 0.9*3vw*0.052083
+        .third_block
+            display: block
+            padding: 0 44*3vw*0.052083
+            padding-bottom: 86*3vw*0.052083
+            .left_side
+                margin-bottom: 102*3vw*0.052083
+                .title 
+                    /* Style for "SS 2020" */
+                    width: 100*3vw*0.052083
+                    height: 14*3vw*0.052083
+                    color: #000000
+                    font-family: "Minion Pro"
+                    font-size: 20*3vw*0.052083
+                    font-weight: 400
+                    line-height: 40.18*3vw*0.052083
+                    text-transform: uppercase
+                    /* Text style for "SS 2020" */
+                    letter-spacing: 0.84*3vw*0.052083
+                    margin: 0
+                    padding: 0
+                    margin-bottom: 45*3vw*0.052083
+                .first_parag
+                    margin: 0
+                    padding: 0
+                    width: 533*3vw*0.052083
+                    height: 104*3vw*0.052083
+                    font-size: 18*3vw*0.052083
+                    line-height: 21.59*3vw*0.052083
+                    letter-spacing: 0.9*3vw*0.052083
+                    margin-bottom: 56*3vw*0.052083
+                .img 
+                    width: 554*3vw*0.052083
+                    height: 369*3vw*0.052083
+                    background-size: 100%
+                    margin-bottom: 41*3vw*0.052083
+                    p 
+                        width: 150*3vw*0.052083
+                        height: 46*3vw*0.052083
+                        font-size: 18*3vw*0.052083
+                        line-height: 25*3vw*0.052083
+                .img_title
+                    width: 131*3vw*0.052083
+                    height: 13*3vw*0.052083
+                    font-size: 18*3vw*0.052083
+            .right_side
+                .video
+                    width: 550*3vw*0.052083
+                    height: 824*3vw*0.052083
+                .img_title
+                    width: 131*3vw*0.052083
+                    height: 13*3vw*0.052083
+                    font-size: 18*3vw*0.052083
+                    line-height: 21.59*3vw*0.052083
+                    letter-spacing: 0.9*3vw*0.052083
+                    margin: 0
+    .spring_summer
+        padding-top: 63*3vw*0.052083
+        padding-left: 48*3vw*0.052083
+        img 
+            width: 555*3vw*0.052083 !important
+        .img_title
+            font-size: 18*3vw*0.052083
+            line-height: 21.59*3vw*0.052083
+            /* Text style for "Discover S" */
+            letter-spacing: 0.9*3vw*0.052083
+        .first_block
+            margin: 0
+            padding: 0
+            margin-bottom: 65*3vw*0.052083
+            .title
+                margin: 0
+                padding: 0
+                font-size: 20*3vw*0.052083
+                line-height: 40.18*3vw*0.052083
+            .video
+                margin: 0
+                padding: 0
+                width: 552*3vw*0.052083
+                height: 310*3vw*0.052083
+                margin-bottom: 32*3vw*0.052083
+            .first_parag, .last_parag
+                /* Style for "Тщеславие" */
+                margin: 0
+                padding: 0
+                width: 533*3vw*0.052083
+                color: #000000
+                font-family: "Gals Light"
+                font-size: 18*3vw*0.052083
+                font-weight: bold
+                line-height: 21.59*3vw*0.052083
+                /* Text style for "Тщеславие" */
+                letter-spacing: 0.9*3vw*0.052083
+            .last_parag
+                display: none 
+        .second_block
+            display: block
+            margin: 0 
+            padding: 0
+            margin-bottom: 62*3vw*0.052083
+            img 
+                margin-bottom: 31*3vw*0.052083
+            .left_side
+                margin: 0
+                padding: 0
+        .third_block
+            padding: 0
+            margin-bottom: 61*3vw*0.052083
+        .third_block
+            padding: 0
+        .fourth_block
+            display: block
+            padding: 0
+            .left_side, .right_side
+                img 
+                    margin: 0
+                    margin-bottom: 37*3vw*0.052083 
+            .left_side
+                margin-bottom: 67*3vw*0.052083
+    .designer_page
+        padding: 48*3vw*0.052083 51*3vw*0.052083 76*3vw*0.052083
+        img 
+            width: 544*3vw*0.052083 !important
+        .title
+            margin: 0
+            margin-bottom: 28*3vw*0.052083
+            /* Style for "INTERVIEW" */
+            font-size: 20*3vw*0.052083
+            line-height: 40.18*3vw*0.052083
+            /* Text style for "INTERVIEW" */
+            letter-spacing: 0.84*3vw*0.052083
+        .first_parag, .last_parag
+            /* Style for "Тщеславие" */
+            width: 519*3vw*0.052083
+            height: 125*3vw*0.052083
+            color: #000000
+            font-family: "Gals Light"
+            font-size: 18*3vw*0.052083
+            font-weight: bold
+            line-height: 21.59*3vw*0.052083
+            /* Text style for "Тщеславие" */
+            letter-spacing: 0.9*3vw*0.052083
+        .first_parag 
+            margin-bottom: 25*1vw*0.052083
+        .first_block
+            display: block
+            padding: 0
+            margin-bottom: 52*3vw*0.052083
+            .left_side
+                .video
+                    width: 535*3vw*0.052083
+                    height: 301*3vw*0.052083
+                    margin-bottom: 50*3vw*0.052083
+            .right_side
+                .first_parag
+                    margin: 0
+                .last_parag
+                    display: none
+        .second_block
+            display: block
+            padding: 0
+            margin-bottom: 73*3vw*0.052083
+            img 
+                &:first-child
+                    margin-bottom: 63*3vw*0.052083
+                &:last-child
+                    width: 542*3vw*0.052083
+        .third_block
+            display: block
+            padding: 0
+            margin: 0
+            margin-bottom: 72*3vw*0.052083
+            .left_side
+                margin: 0
+                padding: 0
+                .img
+                    width: 544*3vw*0.052083
+                    height: 817*3vw*0.052083
+                    background-size: 195vw !important
+                    margin-bottom: 68*3vw*0.052083
+            .right_side
+                img
+                    margin-bottom: 52*3vw*0.052083
+                .first_parag, .last_parag
+                    margin: 0 
+                    width: 544*3vw*0.052083
+                .last_parag
+                    display: none
+        .fourth_block
+            flex-direction: column-reverse
+            .right_side
+                margin-bottom: 52*3vw*0.052083
+            .left_side
+                margin: 0
+                p 
+                    width: 544*3vw*0.052083
+                    margin: 0
+                .first_parag
+                    margin-bottom: 30*3vw*0.052083
+        .five_block
+            display: block
+            img 
+                &:first-child 
+                    margin-bottom: 105*3vw*0.052083
+                &:last-child
+                    margin: 0 -50*3vw*0.052083
+                    width: 640*3vw*0.052083 !important
+        .six_block
+            margin: 0
+            margin-bottom: 55*3vw*0.052083
+            img 
+                margin: 0
+                margin-bottom: 50*3vw*0.052083
+            .first_parag, .last_parag
+                width: 544*3vw*0.052083
+                margin: 0
+            .first_parag
+                margin: 0
+            .last_parag
+                display: none
+        .seven_block
+            img 
+                margin: 0
+    .shop_page
+        background: none
+        background-color: #f5f2ef
+        padding-top: 42*3vw*0.052083
+        padding-left: 46*3vw*0.052083
+        nav 
+            margin-bottom: 75*3vw*0.052083
+            ul 
+                display: flex
+                justify-content: space-between
+                li 
+                    font-size: 21*3vw*0.052083
+                    line-height: 27.8*3vw*0.052083
+                    letter-spacing: 0.8*3vw*0.052083
+        .marketplace
+            display: block
+            .categories
+                width: 100%
+                margin-bottom: 67*3vw*0.052083
+                ul 
+                    display: flex
+                    justify-content: space-between
+                    li 
+                        width: 114*3vw*0.052083
+                        display: inline-block
+                        font-size: 16*3vw*0.052083
+                        line-height: 37.8*3vw*0.052083
+                        /* Text style for "All     S" */
+                        letter-spacing: 0.8*3vw*0.052083
+                        &:nth-child(2)
+                            text-align: center
+
+                        &:last-child
+                            text-align: right
+            .items 
+                img 
+                    width: 564*3vw*0.052083 !important
+                    margin-bottom: 46*3vw*0.052083 !important
+                .first_line, .second_line
+                    display: block
+                .item
+                    margin-bottom: 71*3vw*0.052083
+                    .item_title
+                        font-size: 18*3vw*0.052083
+                        line-height: 21.59*3vw*0.052083
+                        /* Text style for "SS 20 , Mo" */
+                        letter-spacing: 0.9*3vw*0.052083
+    .item_page
+        padding: 42*3vw*0.052083 32*3vw*0.052083 0 32*3vw*0.052083
+        .mobile__block 
+            display: block
+        nav 
+            ul 
+                width: 560*3vw*0.052083
+                li 
+                    a 
+                        font-size: 21*3vw*0.052083
+                        line-height: 27.8*3vw*0.052083
+                        letter-spacing: 0.8*3vw*0.052083
+        .item
+            flex-direction: column-reverse
+            .specifications
+                margin: 0
+                margin-top: 80*3vw*0.052083
+                margin-left: 17*3vw*0.052083
+                p
+                    font-size: 18*3vw*0.052083 !important
+                .title 
+                    margin-bottom: 38*3vw*0.052083
+                .code
+                    margin-bottom: 27*3vw*0.052083
+                .cost 
+                    margin-bottom: 64*3vw*0.052083
+                .choose
+                    display: none
+                input[type="radio"]
+                    display: none 
+                .size 
+                    display: none
+                label, .choose_size_button, button 
+                    display: none
+            .item_photo 
+                padding: 0 
+                margin-left: 17*3vw*0.052083
+                img 
+                    margin: 0
+                    margin-bottom: 51*3vw*0.052083
+                    width: 549*3vw*0.052083
+                .video
+                    margin: 0
+                    width: 549*3vw*0.052083
+                    height: 823*3vw*0.052083
+                .parag 
+                    display: none
+            .mobile__block
+                .parag
+                    margin-top: 56*3vw*0.052083
+                    margin-left: 32*3vw*0.052083
+                    margin-bottom: 93*3vw*0.052083
+                    width: 536*3vw*0.052083
+                    font-size: 18*3vw*0.052083
+                    line-height: 21.59*3vw*0.052083
+                    /* Text style for "In the for" */
+                    letter-spacing: 0.9*3vw*0.052083
+                .mobile__specifications
+                    
+                    .choose
+                        width: 409*3vw*0.052083
+                        display: flex
+                        justify-content: space-between
+                        margin-left: 70*3vw*0.052083
+                        margin-bottom: 99*3vw*0.052083
+                        .quantity, .colour
+                            display: flex
+                            flex-direction: column
+                            align-items: center
+                            p 
+                                color: #000000
+                                font-family: "Gals Light"
+                                font-size: 31*3vw*0.052083
+                                font-weight: bold
+                                line-height: 42.31*3vw*0.052083
+                                /* Text style for "Quantity" */
+                                letter-spacing: 0.8*3vw*0.052083
+                                margin-bottom: 25*3vw*0.052083
+                            input
+                                /* Style for "Rectangle" */
+                                width: 55*3vw*0.052083
+                                height: 56*3vw*0.052083
+                                border: 1*3vw*0.052083 solid #000000
+                                text-align: center
+                                color: #000000
+                                font-family: "Gals Light"
+                                font-size: 31*3vw*0.052083
+                                font-weight: bold
+                                line-height: 42.31*3vw*0.052083
+                                /* Text style for "1" */
+                                letter-spacing: 0.8*3vw*0.052083
+                            .color 
+                                width: 58*3vw*0.052083
+                                height: 58*3vw*0.052083
+                                background-color: #567fbc
+                    .size
+                        margin-left: 80*3vw*0.052083
+                        margin-bottom: 37*3vw*0.052083
+                        color: #000000
+                        font-family: "Gals Light"
+                        font-size: 31*3vw*0.052083
+                        font-weight: bold
+                        line-height: 42.31*3vw*0.052083
+                        /* Text style for "Size (Size" */
+                        letter-spacing: 0.8*3vw*0.052083
+                    .choose_size_button
+                        margin-left: 80*3vw*0.052083
+                        width: 362*3vw*0.052083
+                        display: flex
+                        justify-content: space-between
+                        margin-bottom: 71*3vw*0.052083
+                        input
+                            display: none
+                        label 
+                            color: #000000
+                            font-family: "Gals Light"
+                            font-size: 31*3vw*0.052083
+                            font-weight: bold
+                            line-height: 42.31*3vw*0.052083
+                            /* Text style for "123456 ," */
+                            letter-spacing: 0.8*3vw*0.052083
+                    button
+                        /* Style for "Rectangle" */
+                        width: 552*3vw*0.052083
+                        height: 84*3vw*0.052083
+                        background-color: #d3d3d3
+                        color: #000000
+                        font-family: "Gals Light"
+                        font-size: 31*3vw*0.052083
+                        font-weight: bold
+                        line-height: 42.31*3vw*0.052083
+                        text-transform: uppercase
+                        /* Text style for "SELECT A S" */
+                        letter-spacing: 0.8*3vw*0.052083
+                        border: none
+                        margin-left: 10*3vw*0.052083
+    .compagne
+        
+        padding-bottom: 103*3vw*0.052083
+        
+        .img_title
+            width: 528*3vw*0.052083
+            br 
+                display: none
+        p 
+            font-size: 18*3vw*0.052083
+            line-height: 21.59*3vw*0.052083
+        .block_title
+            font-size: 35*3vw*0.052083
+            line-height: 35.01*3vw*0.052083
+        img 
+            width: 528*3vw*0.052083 !important
+            margin: 0
+        div
+            display: block
+        &__first_block
+            padding-top: 99*3vw*0.052083
+            margin-bottom: 85*3vw*0.052083
+            background: url(../img/compagne-first-block-left-bg.png) no-repeat 52vw -10vw
+            background-size: 64vw
+            &__left_side
+                margin: 0 
+                padding: 0 
+                margin-bottom: 81*3vw*0.052083
+                .block_title
+                    margin: 0
+                    margin-left: 82*3vw*0.052083
+                    margin-bottom: 56*3vw*0.052083
+                .first_parag
+                    margin-left: 152*3vw*0.052083
+                    margin-bottom: 47*3vw*0.052083
+                .second_parag
+                    margin-left: 152*3vw*0.052083
+                    margin-bottom: 62*3vw*0.052083
+                    
+                img 
+                    margin-left: 139*3vw*0.052083
+                    width: 367*3vw*0.052083 !important
+            &__right_side
+                padding-left: 60*3vw*0.052083
+                img 
+                    margin-bottom: 44*3vw*0.052083
+                .img_title 
+                    width: 522*3vw*0.052083
+                    br 
+                        display: none
+        &__second_block
+            display: flex !important
+            flex-direction: column-reverse 
+            padding-left: 60*3vw*0.052083
+            margin-bottom: 86*3vw*0.052083
+            &__right_side
+                margin: 0
+                margin-bottom: 56*3vw*0.052083
+                img
+                    margin-bottom: 57*3vw*0.052083
+            &__left_side
+                margin: 0
+                img 
+                    margin-bottom: 46*3vw*0.052083
+        &__third_block
+            padding-left: 60*3vw*0.052083
+            margin-bottom: 79*3vw*0.052083
+            .video
+                margin: 0
+                width: 525*3vw*0.052083
+                height: 350*3vw*0.052083
+        &__fourth_block 
+            padding-left: 60*3vw*0.052083
+            margin-bottom: 127*3vw*0.052083
+            .img_title
+                margin: 0
+            &__left_side
+                margin-bottom: 62*3vw*0.052083
+                img 
+                    margin-bottom: 51*3vw*0.052083
+
+            &__right_side
+                img 
+                    margin-bottom: 49*3vw*0.052083
+        &__five_block
+            display: flex !important
+            flex-direction: column-reverse 
+            padding: 0
+            margin-bottom: 81*3vw*0.052083
+            &__right_side
+                margin-bottom: 86*3vw*0.052083
+                .block_title 
+                    margin-left: 167*3vw*0.052083
+                .first_parag
+                    margin-left: 153*3vw*0.052083
+                .second_parag
+                    margin-left: 152*3vw*0.052083
+                img 
+                    width: 369*3vw*0.052083 !important
+                    margin-left: 134*3vw*0.052083
+            &__left_side
+                padding-left: 60*3vw*0.052083
+                .img_title
+                    margin: 0 
+                img 
+                    margin-bottom: 42*3vw*0.052083
+        &__six_block
+            padding: 0
+            margin: 0
+            padding-left: 60*3vw*0.052083
+            margin-bottom: 66*3vw*0.052083
+            &__left_side
+                margin: 0
+                margin-bottom: 72*3vw*0.052083
+                img
+                    margin-bottom: 47*3vw*0.052083
+            &__right_side
+                margin: 0
+                img 
+                    margin-bottom: 47*3vw*0.052083
+        &__seven_block
+            padding-left: 60*3vw*0.052083
+            margin-bottom: 35*3vw*0.052083
+            &__left_side
+                margin: 0 
+                margin-bottom: 43*3vw*0.052083
+                .video
+                    width: 535*3vw*0.052083
+                    height: 356*3vw*0.052083
+                    margin-bottom: 47*3vw*0.052083
+            &__right_side
+                margin: 0
+        &__eight_block
+            padding-left: 60*3vw*0.052083
+            margin-bottom: 99*3vw*0.052083
+            img 
+                margin-bottom: 39*3vw*0.052083
+        &__nine_block
+            margin-bottom: 62*3vw*0.052083
+            &__left_side 
+                margin-bottom: 81*3vw*0.052083
+                .block_title, .first_parag, .second_parag
+                    margin: 0
+                .block_title
+                    margin-left: 177*3vw*0.052083
+                    margin-bottom: 56*3vw*0.052083
+                .first_parag
+                    width: 331*3vw*0.052083
+                    margin-left: 152*3vw*0.052083
+                    margin-bottom: 47*3vw*0.052083
+                .second_parag
+                    margin-left: 150*3vw*0.052083
+                    margin-bottom: 62*3vw*0.052083
+                img 
+                    width: 367*3vw*0.052083 !important
+                    margin-left: 129*3vw*0.052083
+            &__right_side
+                margin: 0
+                padding-left: 60*3vw*0.052083
+                img 
+                    margin-bottom: 44*3vw*0.052083
+        &__ten_block
+            display: flex !important
+            flex-direction: column-reverse
+            padding-left: 60*3vw*0.052083
+            margin-bottom: 84*3vw*0.052083
+            &__right_side
+                margin-bottom: 43*3vw*0.052083
+                img 
+                    margin-bottom: 41*3vw*0.052083
+            &__left_side
+                img 
+                    margin-bottom: 29*3vw*0.052083 
+                .img_title
+                    margin: 0 
+        &__eleven_block
+            padding-left: 60*3vw*0.052083
+            background-size: 45vw
+            .video 
+                /* Style for "Layer 9" */
+                width: 549*3vw*0.052083
+                height: 366*3vw*0.052083
+                margin: 0 
+                margin-bottom: 43*3vw*0.052083
+            p
+                width: 406*3vw*0.052083
+        &__twelve_block
+            
+            padding-left: 60*3vw*0.052083
+            &__left_side 
+                margin: 0 
+                margin-bottom: 95*3vw*0.052083
+                img
+                    margin-bottom: 37*3vw*0.052083
+            &__right_side 
+                img 
+                    margin-bottom: 45*3vw*0.052083
+
+
+
+                    
+            
+
+@media screen and (max-width: 480px)
+    .page
+        &__first_block
+            p 
+                padding: 10vw 0 0 8vw !important
+            .img_block
+                p 
+                    padding: 0 !important
+
+@media screen and (max-width: 320px)
+    .page
+        &__first_block
+            p 
+                padding: 10vw 0 0 2vw !important
+                font-size: 3vw !important
+            .img_block
+                p 
+                    font-size: 3vw !important
+                    padding: 0 !important
+        &__second_block
+            .img_block
+                p 
+                    font-size: 3vw !important
+        &__third_block
+            .left_img_block
+                p 
+                    font-size: 3vw !important
+            .right_img_block
+                p 
+                    font-size: 3vw !important
+        &__fourth_blcok
+            div 
+                p 
+                    font-size: 3vw !important
+    .spring_summer
+        .first_block
+            .title
+                font-size: 28*3vw*0.052083
+
+
+
+
+
+
+
+
+        

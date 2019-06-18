@@ -1,0 +1,16 @@
+<wpml-config>
+    <custom-types>
+		<custom-type translate="0">gg_collections</custom-type>
+		<custom-type translate="1">gg_galleries</custom-type>
+	</custom-types>  
+	
+	<taxonomies>
+		<taxonomy translate="1">gg_gall_categories</taxonomy>
+	</taxonomies>
+	
+	<admin-texts>
+		<key name="gg_coll_go_back"/>
+	</admin-texts>
+</wpml-config>
+
+

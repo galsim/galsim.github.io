@@ -1,0 +1,2 @@
+document.querySelectorAll('.third_block__fork__container')[2].querySelectorAll('.third_block__fork__value')[2].classList.add('third_block__fork__value__pixelperfect');
+document.querySelectorAll('.third_block__fork__container')[2].querySelectorAll('.third_block__fork__value')[1].classList.add('third_block__fork__value__margin_pixelperfect');

@@ -1,0 +1,57 @@
+2019-02-26T14:29:28+00:00 CRITICAL Call to a member function get_price_html() on null
+
+2019-02-26T14:31:37+00:00 CRITICAL Call to a member function get_price_html() on null
+
+2019-02-26T14:36:05+00:00 CRITICAL Call to a member function get_price_html() on null
+
+2019-02-26T14:54:55+00:00 CRITICAL Call to a member function get_price_html() on null
+
+2019-02-26T14:57:44+00:00 CRITICAL Uncaught exception 'Exception' with message 'Неверный товар.' in /home/toaster/domains/creative-services.ru/public_html/raki/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php:149
+Stack trace:
+#0 /home/toaster/domains/creative-services.ru/public_html/raki/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(149): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 /home/toaster/domains/creative-services.ru/public_html/raki/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 /home/toaster/domains/creative-services.ru/public_html/raki/wp-content/themes/ma/section-centermenu.php(49): WC_Product->__construct(52)
+#3 /home/toaster/domains/creative-services.ru/public_html/raki/wp-includes/template.php(690): require('/home/toaster/d...')
+#4 /home/toaster/domains/creative-services.ru/public_html/raki/wp-includes/template.php(647): load_template('/home/toaster/d...', false)
+#5 /home/toa
+
+2019-02-26T15:03:07+00:00 CRITICAL Call to a member function get_price_html() on null
+
+2019-02-26T15:03:23+00:00 CRITICAL Call to a member function get_price_html() on null
+
+2019-03-23T11:58:20+00:00 CRITICAL Call to a member function get_id() on null
+
+2019-03-23T11:59:02+00:00 CRITICAL Call to a member function get_id() on null
+
+2019-03-23T12:23:43+00:00 CRITICAL Call to a member function get_id() on null
+
+2019-03-23T12:57:28+00:00 CRITICAL Call to a member function get_id() on null
+
+2019-03-23T12:57:40+00:00 CRITICAL Call to a member function get_id() on null
+
+2019-03-23T12:59:37+00:00 CRITICAL Call to a member function get_id() on null
+
+2019-03-23T13:17:59+00:00 CRITICAL Call to a member function add_to_cart_url() on null
+
+2019-03-23T13:19:20+00:00 CRITICAL Call to a member function add_to_cart_url() on null
+
+2019-03-23T13:38:25+00:00 CRITICAL Call to a member function add_to_cart_url() on null
+
+2019-03-23T13:40:02+00:00 CRITICAL Call to a member function add_to_cart_url() on null
+
+2019-03-23T16:49:15+00:00 CRITICAL Call to undefined function get_price_html()
+
+2019-03-23T16:49:27+00:00 CRITICAL Call to undefined method WP_Post::get_price_html()
+
+2019-03-23T16:49:49+00:00 CRITICAL Call to undefined function get_price_html()
+
+2019-03-23T16:53:56+00:00 CRITICAL Call to a member function add_to_cart_url() on null
+
+2019-03-25T10:33:31+00:00 CRITICAL Call to a member function single_add_to_cart_text() on null
+
+2019-03-25T21:15:08+00:00 CRITICAL Call to a member function add_to_cart_url() on null
+
+2019-03-25T21:15:42+00:00 CRITICAL Call to a member function add_to_cart_url() on null
+
+2019-03-25T21:15:45+00:00 CRITICAL Call to a member function add_to_cart_url() on null
+

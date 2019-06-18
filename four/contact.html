@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/fonts/MonionProFont.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body>
+    <div class="main_page">
+        <header class="main_page__header">
+            <p class="main_page__button">menu</p>
+            <p class="leng">IT   <span>EN</span>   RU</p>
+        </header>
+        <div class="main_page__look_block">
+            <p>
+                CONTACTS
+            </p>
+        </div>
+    </div>
+    <div class="menu">
+        <header class="menu__header">
+            <p class="menu__header__button">close</p>
+            <p class="leng">IT   <span>EN</span>   RU</p>
+        </header>
+        <div class="menu__links">
+            <div class="line">
+                <p>
+                    <a href="index.html"></a>
+                </p>
+                <p>
+                    <a href="spring_summer.html">COLLECTIONS</a>
+                </p>
+                <p>
+                    <a href="campaign.html">CAMPAIGN</a>
+                </p>
+            </div>
+            <div class="line">
+                <p><a href="stories.html">STORIES</a></p>
+                <p><a href="shop.html">ONLINE STORE</a></p>
+                <p><a href="designer.html">DESIGNER</a></p>
+            </div>
+            <div class="line">
+                <p><a href="outlet.html">OUTLET</a></p>
+                <p><a href="contact.html">CONTACTS</a></p>
+            </div>
+        </div>
+        <footer class="footer">
+            <form action="#" class="footer__form">
+                <label for="#email">NEWSLETTER</label>
+                <input type="text" id="email" placeholder="Your E-mail" class="footer__form__email">
+                <div>
+                    <p>
+                        2019 © MASSIMO SFORZA
+                    </p>
+                    <p>FACEBOOK  <span>|</span>  INSTAGRAM</p>
+                </div>
+            </form>
+        </footer>
+        <img src="assets/img/logo.png" alt="" class="logo">
+    </div>
+    <div class="contact_page">
+        <div class="adres">
+            <div class="adres__map">
+                
+            </div>
+            <div class="adres__street">
+                <div class="shop">
+                    <p class="title_shop">MASSIMO SFORZA SHOWROOM</p>
+                    <p class="shop_adres">
+                            MASSIMO SFORZA SHOWROOM. VIA S.ANDREA, <br>
+                            3 (3RD FLOOR). MILANO 20121. ITALY. TEL. +39 02 <br> 76016359. FAX +39 02 76003081.
+                    </p>
+                    <button>SHOW ON MAP</button>
+                </div>
+                <div class="shop">
+                    <p class="title_shop">Massimo Sforza Domus Prima</p>
+                    <p class="shop_adres">
+                            Via Montenapoleone 23 <br>
+                            Milano <br>
+                            TEL. 00390276015633 <br>  
+                            E-Mail domusprimamilano@massimosforza.com <br>
+                    </p>
+                    <button>SHOW ON MAP</button>
+                </div>
+            </div>
+        </div>
+        <div class="second_block">
+            <p>Inspired by the simple magnitude of the Latin Domus and interpreting classics as the epitome of culture, passion, and history, Domus Prima is the name given to the first flagship store of Massimo Sforza. Located in the central via Montenapoleone in Milan, Domus Prima focuses on the recall of an ancient beauty, and a concept of luxury built up through space, light, and pureness.</p>
+            <img src="./assets/img/contact_second_block.jpg" alt="">
+        </div>
+        <div class="third_block">
+            <p>
+                The store becomes a space to live in, like a garment. It is a symbol of a quality which is celebrated by many people but followed by few. Domus prima, the first of its kind, is intended to be followed by others and to bring out the timeless concept of elegance, which excludes any kind of excess.
+                In the store, cashmere meets crocodile, knitwear becomes a veil, suits stress kindly the anatomy without betraying the codes of couture, and shoes bring out the tradition of Italian manufacturing.
+            </p>
+        </div>
+        <div class="fourth_block">
+            <img src="./assets/img/contact-fourth-block-left.jpg" alt="">
+            <img src="./assets/img/contact-fouth-block-right.jpg" alt="">   
+        </div>
+    </div>
+    <div class="mobile_footer">
+        <form action="#" class="mobile_footer__form">
+            <label for="#email">NEWSLETTER</label>
+            <input type="text" id="email" placeholder="Your E-mail" class="footer__form__email">
+            <div>
+                <p>
+                    2019 © MASSIMO SFORZA
+                </p>
+                <p>FACEBOOK  <span>|</span>  INSTAGRAM</p>
+            </div>
+        </form>
+    </div>
+    <script src="./assets/script/jquery-3.4.1.min.js"></script>
+    <script>
+        $('.main_page__button').on('click', function() {
+            $('.menu').css('display', 'block')
+        })
+        $('.menu__header__button').on('click', function() {
+            $('.menu').css('display', 'none')
+        })
+    </script>
+</body>
+</html>

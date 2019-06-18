@@ -1,0 +1,1211 @@
+@font-face 
+    font-family:  HelveticaNeueCondensed-Black
+    src: url("../img/fonts/HelveticaNeueCondensed-Black.otf")
+    
+@font-face 
+    font-family:  HelveticaNeueCondensed-Bold
+    src: url("../img/fonts/HelveticaNeueCondensed-Bold.otf")
+
+@font-face 
+    font-family:  HelveticaNeueCondensed-Black
+    src: url("../img/fonts/HelveticaNeueCondensed-Black.otf")
+
+@font-face 
+    font-family:  HelveticaNeueCyr-Italic
+    src: url("../img/fonts/HelveticaNeueCyr-Italic.otf")
+
+@font-face 
+    font-family:  HelveticaNeueCyr-Light
+    src: url("../img/fonts/HelveticaNeueCyr-Light.otf")
+
+@font-face 
+    font-family:  HelveticaNeueCyr-LightItalic
+    src: url("../img/fonts/HelveticaNeueCyr-LightItalic.otf")
+
+@font-face 
+    font-family:  HelveticaNeueCyr-Medium
+    src: url("../img/fonts/HelveticaNeueCyr-Medium.otf")
+
+@font-face 
+    font-family:  HelveticaNeueCyr-Roman
+    src: url("../img/fonts/HelveticaNeueCyr-Roman.otf")
+
+@font-face 
+    font-family:  HelveticaNeueCyr-ThinItalic
+    src: url("../img/fonts/HelveticaNeueCyr-ThinItalic.otf")
+    
+@font-face 
+    font-family:  HelveticaNeueCyr-UltraLight3
+    src: url("../img/fonts/helveticaneuecyr-ultralight3.ttf")
+
+@font-face 
+    font-family:  HelveticaNeueCyr-UltraLightItalic
+    src: url("../img/fonts/HelveticaNeueCyr-UltraLightItalic.otf")
+
+a, a:hover, a:visited, a:link, a:active
+    color: inherit 
+    text-decoration: none 
+
+   
+
+.first_block
+    background-image: url("../img/image/background.png")
+    background-size: 100vw
+    padding: 58*1vw*0.052083 45*1vw*0.052083 0
+    height: 799*1vw*0.052083
+    &__container
+        display: flex
+        justify-content: flex-start
+        align-items: flex-start
+        
+    &__nav
+        display: inline-block
+        vertical-align: top
+        width: 465*1vw*0.052083
+        margin-right: 288*1vw*0.052083
+        ul 
+            list-style: none 
+            li
+                display: inline-block
+                a
+                    font-family: "HelveticaNeueCyr-Medium"
+                    color: #ffffff
+                    font-size: 15*1vw*0.052083
+                    text-shadow: 0 8*1vw*0.052083 3*1vw*0.052083 rgba(3, 12, 25, 0.77)
+                    font-weight: 500
+
+    &__logo
+        width: 286*1vw*0.052083
+        height: 85*1vw*0.052083
+        background-size: cover
+        position: relative
+        bottom: 5*1vw*0.052083
+        margin-right: 431*1vw*0.052083
+
+
+    &__contact //блок с телефонами и адресом
+        display: inline-block
+        text-align: right
+        position: relative
+        bottom: 12*1vw*0.052083
+
+        img
+            margin-right: 12*1vw*0.052083
+            width: 30*1vw*0.052083
+        p 
+            text-shadow: 0 8*1vw*0.052083 3*1vw*0.052083 rgba(3, 12, 25, 0.77)
+            font-size: 17*1vw*0.052083
+            font-weight: 300
+            
+
+
+        &__adres // блок с адресом
+            margin-bottom: 22*1vw*0.052083
+            img 
+                width: 18*1vw*0.052083
+                vertical-align: top
+            .adress
+                display: inline-block
+                margin-top: 10*1vw*0.052083
+                font-family: "HelveticaNeueCyr-Light"
+                color: #ffffff
+                letter-spacing: 0.9*1vw*0.052083
+                margin-bottom: 10*1vw*0.052083
+            .street
+                font-family: "HelveticaNeueCyr-Light"
+                color: #ffffff
+                letter-spacing: 0.9*1vw*0.052083
+
+
+                
+        &__tel // с телефоном
+            letter-spacing: 0.9*1vw*0.052083
+            font-family: "HelveticaNeueCyr-Light"
+            color: #ffffff
+            .social_mobile //телефон для соц сетей
+                display: flex
+                align-items: center
+                justify-content: flex-end
+                margin-bottom: 17*1vw*0.052083
+                img
+                    align-self: flex-end
+                    position: relative
+                    top: 4*1vw*0.052083
+                    &:first-child
+                        width: 23*1vw*0.052083
+                        margin-right: 9*1vw*0.052083 !important
+                        top: 3*1vw*0.052083
+                        left: -3*1vw*0.052083
+                    &:nth-child(2)
+                        width: 24*1vw*0.052083
+                        top: 3*1vw*0.052083
+                        left: -2*1vw*0.052083
+                    &:nth-child(3)
+                        width: 26*1vw*0.052083
+                        left: -2*1vw*0.052083
+
+                        
+                    &:not(:last-child)
+                        margin-right: 5*1vw*0.052083
+
+            .call_mobile // стационарный
+                margin-bottom: 14*1vw*0.052083
+                img    
+                    width: 22*1vw*0.052083
+                    display: inline-block
+                    position: relative
+                    left: 3*1vw*0.052083
+                    
+                p 
+                    
+                    display: inline-block
+
+        &__social_button // с икноками соц сетей
+            width: 41*1vw*0.052083
+            position: absolute
+            right: -5*1vw*0.052083
+            img 
+                display: block
+                margin: 0 auto 10*1vw*0.052083
+                &:nth-child(1)
+                    width: 37*1vw*0.052083
+                &:nth-child(2)
+                    width: 33*1vw*0.052083
+                &:nth-child(3)
+                    width: 33*1vw*0.052083
+                &:nth-child(4)
+                    width: 32*1vw*0.052083
+                    margin-bottom: 12*1vw*0.052083
+                &:nth-child(5)
+                    width: 32*1vw*0.052083
+                    margin-bottom: 12*1vw*0.052083
+                &:nth-child(6)
+                    width: 33*1vw*0.052083
+                    margin-bottom: 12*1vw*0.052083
+    &__title
+        margin-top: 138*1vw*0.052083
+        margin-bottom: 212*1vw*0.052083
+        text-align: center
+        text-shadow: 0 8*1vw*0.052083 3*1vw*0.052083 rgba(3, 12, 25, 0.77)
+        color: #ffffff
+        font-family: "HelveticaNeueCyr-Medium"
+        font-size: 65*1vw*0.052083
+        font-weight: 500
+        line-height: 80*1vw*0.052083
+        text-transform: uppercase
+        /* Text style for "Мы решаем" */
+        letter-spacing: 4.88*1vw*0.052083
+        position: relative
+        left: 9*1vw*0.052083
+        background-image: url("../img/image/title_sep.png")
+        background-size: 53vw
+        background-position: 20.3vw 2.8vw
+        background-repeat: no-repeat
+        height: 9vw
+        span
+            color: #a11638
+            letter-spacing: 4.88*1vw*0.052083  
+            position: relative
+            right: 10*1vw*0.052083          
+
+    &__mouse_scroll
+        width: 35*1vw*0.052083
+        display: block
+        margin: 0 auto
+
+.second_block
+    padding: 105*1vw*0.052083
+    height: 800*1vw*0.052083
+    background-image: url("../img/image/line_advantage.png"), url("../img/image/left_background.png"), url("../img/image/right_background.png")
+    background-repeat: no-repeat
+    background-position: 16.4vw 9.6vw, 0*1vw*0.052083 -1vw, 100% 30%, 28% 82%
+    background-size: 65vw, 19vw, 14vw
+    &__title
+        text-align: center
+        color: #162232
+        font-family: "HelveticaNeueCyr-Roman"
+        font-size: 27*1vw*0.052083
+        font-weight: 400
+        line-height: 98.01*1vw*0.052083
+        text-transform: uppercase
+        letter-spacing: 0.62*1vw*0.052083
+        margin-bottom: 244*1vw*0.052083
+        span
+            color: #a11638
+            letter-spacing: 0.62*1vw*0.052083
+    .years
+        color: #a11638
+        font-family: "Roboto Mono"
+        font-size: 80*1vw*0.052083
+        font-weight: 700
+        line-height: 113.48*1vw*0.052083
+        letter-spacing: 0.12*1vw*0.052083
+        width: 1363*1vw*0.052083
+        margin: 0 auto
+        span
+            border-bottom: 2*1vw*0.052083 solid #a11638
+            &:nth-child(1)
+                margin-right: 197*1vw*0.052083
+            &:nth-child(2)
+                margin-right: 209*1vw*0.052083
+            &:nth-child(3)
+                margin-right: 159*1vw*0.052083
+            &:nth-child(4)
+                font-size: 91*1vw*0.052083
+
+    .advantage_title
+        margin: 0 auto
+        width: 1363*1vw*0.052083
+        color: #162232
+        margin-bottom: 80*1vw*0.052083
+        p 
+            font-family: "HelveticaNeueCyr-Medium"
+            font-size: 23*1vw*0.052083
+            font-weight: 400
+            /* Text style for "лет на , р" */
+            letter-spacing: 0.4*1vw*0.052083
+            line-height: 27*1vw*0.052083
+            text-align: center
+            display: inline-block
+            &:nth-child(1)
+                margin-right: 252*1vw*0.052083
+                margin-left: 14*1vw*0.052083
+            &:nth-child(2)
+                margin-right: 271*1vw*0.052083
+            &:nth-child(3)
+                margin-right: 11.18742vw
+            &:nth-child(4)
+    
+    .branching
+        
+        width: 1353*1vw*0.052083
+        height: 400*1vw*0.052083
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        background: transparent url("../img/image/branching.png") no-repeat  0% 3%
+        background-size: 48vw
+        &__title
+            color: #162232
+            font-family: "HelveticaNeueCyr-Light"
+            font-size: 21*1vw*0.052083
+            line-height: 98.01*1vw*0.052083
+            /* Text style for "В наши зад" */
+            letter-spacing: 0.48*1vw*0.052083
+            display: inline-block
+            margin-top: 20*1vw*0.052083
+        &__value
+            color: #162232
+            font-family: "HelveticaNeueCyr-Light"
+            font-size: 17*1vw*0.052083
+            display: inline-block
+            p 
+                &:nth-child(1)
+                    margin-top: 5*1vw*0.052083
+                    letter-spacing: 0.1*1vw*0.052083 
+                    margin-bottom: 38*1vw*0.052083
+                &:nth-child(2)
+                    margin-bottom: 38*1vw*0.052083
+                    line-height: 21*1vw*0.052083
+
+.third_block
+    background: url("../img/image/laptop.png") no-repeat 101.6% 39.5%, linear-gradient(to right, #070d19 0%,#212d3d 75%, #1b2536 100%)
+    background-size: 45.3vw, 100%
+    padding-top: 92*1vw*0.052083
+    height: 1229*1vw*0.052083 
+    h1
+        text-align: center
+        color: #ffffff
+        font-family: "Helvetica Neue Cyr - Roman"
+        font-size: 27*1vw*0.052083
+        font-weight: 400
+        line-height: 36*1vw*0.052083
+        text-transform: uppercase
+        /* Text style for "Возможност" */
+        letter-spacing: 0.27*1vw*0.052083
+        span
+            color: #a11638
+            letter-spacing: 0.27*1vw*0.052083
+    &__fork
+        &:nth-child(2)
+            background: url(../img/image/3block1fork.png) no-repeat 2.2vw 4.7vw
+            background-size: 52vw
+            padding: 2.90415vw 45*1vw*0.052083
+            .third_block__fork__title
+                margin-right: 389*1vw*0.052083
+           
+        &:nth-child(3)
+            background: url(../img/image/3block2fork.png) no-repeat 11.7vw 3.5vw
+            background-size: 54vw
+            padding-top: 31*1vw*0.052083
+            padding-left: 225*1vw*0.052083
+            .third_block__fork__title
+                margin-right: 465*1vw*0.052083
+        &:nth-child(4)
+            background: url(../img/image/3block3fork.png) no-repeat 23.4vw 5.8vw
+            background-size: 54vw
+            padding-top: 3.94581vw
+            padding-left: 448*1vw*0.052083
+            padding-bottom: 0.2vw
+            .third_block__fork__title
+                margin-right: 444*1vw*0.052083
+                margin-top: 99*1vw*0.052083
+            .third_block__fork__value__margin_pixelperfect
+                margin-bottom: 18*1vw*0.052083
+            .third_block__fork__value__pixelperfect
+                line-height: 18*1vw*0.052083
+                margin-bottom: 17*1vw*0.052083
+        &__title
+            text-shadow: 0 9*1vw*0.052083 25*1vw*0.052083 rgba(0, 0, 0, 0.8)
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Roman"
+            font-size: 21*1vw*0.052083
+            font-weight: 400
+            display: inline-block
+            margin-right: 382*1vw*0.052083
+            vertical-align: top
+            margin-top: 90*1vw*0.052083
+        &__value
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Light"
+            font-size: 17*1vw*0.052083
+            font-weight: 300
+            line-height: 50*1vw*0.052083
+            /* Text style for "Реализация" */
+            letter-spacing: 0.08*1vw*0.052083
+        &__container
+            display: inline-block
+    &__contact_block
+        width: 894*1vw*0.052083
+        display: flex
+        justify-content: space-between
+        margin: 84*1vw*0.052083 auto 0
+        align-items: center
+        
+
+        p 
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Medium"
+            font-size: 27*1vw*0.052083
+            font-weight: 500
+            line-height: 36*1vw*0.052083
+            text-transform: uppercase
+            /* Text style for "Нужно что-" */
+            letter-spacing: 0.27*1vw*0.052083
+        button
+            outline: none
+            border: none
+            border-radius: 45*1vw*0.052083
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Roman"
+            font-size: 21*1vw*0.052083
+            font-weight: 400
+            line-height: 36*1vw*0.052083
+            text-transform: uppercase
+            letter-spacing: 0.21*1vw*0.052083
+            width: 427*1vw*0.052083
+            height: 70*1vw*0.052083
+            box-shadow: 0 3*1vw*0.052083 0 rgba(24, 48, 86, 0.4)
+            background-color: #2b4478
+            background-image: linear-gradient(to top, #a11638 0%, #c52f54 71%, #c52f54 100%)
+.fourth_block 
+    padding-top: 6.76246vw
+    &__container
+        display: flex
+        justify-content: flex-start 
+        align-items: flex-start
+    h1 
+        text-align: center
+        color: #162232
+        font-family: "HelveticaNeueCyr-Roman"
+        font-size: 27*1vw*0.052083
+        font-weight: 400
+        line-height: 36*1vw*0.052083
+        text-transform: uppercase
+        /* Text style for "Рассчитайт" */
+        letter-spacing: 0.27*1vw*0.052083
+        margin-bottom: 93*1vw*0.052083
+        span 
+            color: #a11638
+            letter-spacing: 0.27*1vw*0.052083
+    &__main
+        padding-left: 44*1vw*0.052083
+        display: flex
+        justify-content: flex-start
+        align-items: flex-start
+        .task_question
+            width: 207*1vw*0.052083
+            margin-right: 53*1vw*0.052083
+            .level
+                color: #a11638
+                font-family: "HelveticaNeueCyr-Roman"
+                font-size: 21*1vw*0.052083
+                font-weight: 400
+                line-height: 26*1vw*0.052083
+                text-transform: uppercase
+                margin-bottom: 12*1vw*0.052083
+            .question
+                color: #162232
+                font-family: "HelveticaNeueCyr - Light"
+                font-size: 17*1vw*0.052083
+                font-weight: 300
+                line-height: 26*1vw*0.052083
+                margin-bottom: 18*1vw*0.052083
+            .answer
+                margin-bottom: 37*1vw*0.052083
+                img 
+                    margin-right: 14*1vw*0.052083
+                    background-size: 3.2vw
+                .yes
+                    margin-bottom: 18*1vw*0.052083
+                span 
+                    color: #162232
+                    font-family: "HelveticaNeueCyr-Light"
+                    font-size: 17*1vw*0.052083
+                    font-weight: 300
+                    line-height: 26*1vw*0.052083
+                    vertical-align: bottom
+            button 
+                width: 192*1vw*0.052083
+                height: 63*1vw*0.052083
+                background-color: #a11638
+                color: #fffefe
+                font-family: "HelveticaNeueCyr-Roman"
+                font-size: 21*1vw*0.052083
+                font-weight: 400
+                line-height: 26*1vw*0.052083
+                text-transform: uppercase
+                border-radius: 15*1vw*0.052083
+    .tetris
+        width: 540*1vw*0.052083
+        height: 540*1vw*0.052083
+        background: #233246 url("../img/image/tetris.png") no-repeat 0% 100%
+        background-size: 28.3vw
+        margin-right: 20*1vw*0.052083
+    .scale
+        /* Style for "Общая высо" */
+        width: 45*1vw*0.052083
+        height: 540*1vw*0.052083
+        border: 2*1vw*0.052083 solid #a11638
+        margin-right: 50*1vw*0.052083
+        &__separator
+            /* Style for "Прямоуголь" */
+            width: 45*1vw*0.052083
+            height: 90*1vw*0.052083
+            &:not(:last-child)
+                border-bottom: 1*1vw*0.052083 solid #a11638
+            &:last-child
+                background: #a11638
+    .motivation
+        /* Style for "Фон" */
+        width: 779*1vw*0.052083
+        height: 420*1vw*0.052083
+        background-color: #a11638
+        background-image: url("../img/icons/quotes.png")
+        background-repeat: no-repeat 
+        background-position: 1% 2%
+        background-size: 7vw
+        padding: 45*1vw*0.052083 0*1vw*0.052083 78*1vw*0.052083 161*1vw*0.052083
+        .first_line
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Roman"
+            font-size: 51*1vw*0.052083
+            font-weight: 400
+            text-transform: uppercase
+        .second_line
+            display: inline-block
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Light"
+            font-size: 37*1vw*0.052083
+            font-weight: 300
+            text-transform: uppercase
+            margin-right: 6*1vw*0.052083
+            &__second_phrase
+                display: inline-block 
+                /* Style for "как все?" */
+                color: #ffffff
+                font-family: "HelveticaNeueCyr-Light"
+                font-size: 97*1vw*0.052083
+                font-weight: 500
+                text-transform: uppercase
+                line-height: 115*1vw*0.052083
+                letter-spacing: 2.5*1vw*0.052083
+        .third_line
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Roman"
+            font-size: 63*1vw*0.052083
+            font-weight: 400
+            text-transform: uppercase
+            margin-bottom: 6*1vw*0.052083
+        .fourth_line
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Light"
+            font-size: 96*1vw*0.052083
+            font-weight: 600
+            letter-spacing: 8.5*1vw*0.052083
+            text-transform: uppercase
+            margin-bottom: 5*1vw*0.052083
+        .fives_line
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Light"
+            font-size: 37*1vw*0.052083
+            font-weight: 300
+            text-transform: uppercase
+            display: inline-block
+            line-height: 47*1vw*0.052083
+            margin-right: 22*1vw*0.052083
+            &__second_phrase
+                display: inline-block
+                vertical-align: bottom  
+                color: #ffffff
+                font-family: "HelveticaNeueCyr-Light"
+                font-size: 45*1vw*0.052083
+                font-weight: 500
+                text-transform: uppercase
+                letter-spacing: 1.8*1vw*0.052083
+                padding-bottom: 4*1vw*0.052083
+.five_block
+    background-image: url("../img/image/background_five_block.png")
+    background-repeat: no-repeat
+    background-position: 0 0.6vw
+    background-size: 100vw
+    padding-top: 199*1vw*0.052083
+    padding-left: 47*1vw*0.052083
+    padding-bottom: 201*1vw*0.052083
+    h1 
+        margin-bottom: 108*1vw*0.052083
+        text-align: center
+        color: #ffffff
+        font-family: "HelveticaNeueCyr-Roman"
+        font-size: 27*1vw*0.052083
+        font-weight: 400
+        line-height: 36*1vw*0.052083
+        text-transform: uppercase
+        /* Text style for "Широкий ст" */
+        letter-spacing: 1*1vw*0.052083
+        span
+            color: #a11638
+            letter-spacing: 0.27*1vw*0.052083
+    &__content
+        display: flex
+        flex-wrap: wrap
+        justify-content: flex-start
+    .skills
+        &:nth-child(1)
+            margin-right: 459*1vw*0.052083
+            margin-bottom: 74*1vw*0.052083
+        &:nth-child(2)
+            margin-right: 442*1vw*0.052083
+            margin-bottom: 74*1vw*0.052083
+        &:nth-child(3)
+            margin-bottom: 74*1vw*0.052083
+        &:nth-child(4)
+            margin-right: 515*1vw*0.052083
+        
+        &:nth-child(5)
+            margin-right: 428*1vw*0.052083
+
+        &__title
+            margin-bottom: 27*1vw*0.052083
+            padding-bottom: 27*1vw*0.052083
+            text-shadow: 0 9*1vw*0.052083 14*1vw*0.052083 rgb(0, 0, 0)
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Light"
+            font-size: 21*1vw*0.052083
+            font-weight: 500
+            border-bottom: 2*1vw*0.052083 solid #7f1a38
+            letter-spacing: 0.8*1vw*0.052083
+            span
+                color: #a11638
+        &__property
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Light"
+            font-size: 17*1vw*0.052083
+            font-weight: 300
+            letter-spacing: -0.1*1vw*0.052083
+            line-height: 19*1vw*0.052083
+
+.six_block
+    height: 1140*1vw*0.052083
+    background: url("../img/image/portfolio.png") no-repeat 0% 100%
+    background-size: 100vw
+    padding: 0 60*1vw*0.052083
+    .swiper-container
+        width: 100%
+        padding-top: 50*1vw*0.052083
+        padding-bottom: 90*1vw*0.052083
+        .swiper-slide
+            background-position: center
+            background-size: cover
+            width: 520*1vw*0.052083
+            height: 875*1vw*0.052083
+            &-active
+                width: 732*1vw*0.052083
+                .main_case
+                    width: 732*1vw*0.052083
+                    .logo_mini
+                        width: 67*1vw*0.052083
+                        height: 83*1vw*0.052083
+                        background-size: cover
+                    .mockup
+                        width: 543*1vw*0.052083
+                        height: 434*1vw*0.052083
+        .swiper-pagination
+            &-bullet
+                display: inline-block
+                /* Style for "Прямоуголь" */
+                width: 115*1vw*0.052083
+                height: 116*1vw*0.052083
+                border: 2*1vw*0.052083 solid #a11638
+                border-radius: 10%
+                background: #ffffff url("../img/image/pagination-bullets.png") no-repeat 50% 50%
+    h1
+        text-align: center
+        color: #162232
+        font-family: "HelveticaNeueCyr-Roman"
+        font-size: 27*1vw*0.052083
+        font-weight: 400
+        line-height: 36*1vw*0.052083
+        text-transform: uppercase
+        margin-bottom: 16*1vw*0.052083
+        span
+            letter-spacing: 0.27*1vw*0.052083
+            color: #a11638
+    .main_case
+        margin: 0 auto
+        width: 520*1vw*0.052083
+        height: 727*1vw*0.052083
+        border: 2*1vw*0.052083 solid #a11638
+        border-radius: 10*1vw*0.052083
+        background: url("../img/image/case_background.png") no-repeat 0 0
+        .logo_mini
+            display: block 
+            margin: 0 auto 28*1vw*0.052083
+            width: 3vw
+        h2  
+            text-align: center
+            color: #162232
+            font-family: "HelveticaNeueCyr-Roman"
+            font-size: 21*1vw*0.052083
+            font-weight: 400
+            line-height: 26*1vw*0.052083
+            text-transform: uppercase
+            margin-bottom: 36*1vw*0.052083
+        .mockup
+            display: block
+            margin: 0 auto 30*1vw*0.052083
+        button
+            display: block
+            margin: 0 auto
+            color: #fffefe
+            font-family: "HelveticaNeueCyr-Roman"
+            font-size: 21*1vw*0.052083
+            font-weight: 400
+            line-height: 26*1vw*0.052083
+            text-transform: uppercase
+            width: 252*1vw*0.052083
+            height: 53*1vw*0.052083
+            background-color: #a11638
+            box-shadow: 0 5*1vw*0.052083 0 0 #7b0a26
+            border-radius: 10*1vw*0.052083
+            border: none
+            outline: none
+
+
+
+.seven_block
+    background: #e7e7e7
+    padding-top: 73*1vw*0.052083
+    padding-bottom: 124*1vw*0.052083
+    h1
+        
+        margin-bottom: 40*1vw*0.052083
+        text-align: center
+        color: #162232
+        font-family: "HelveticaNeueCyr-Roman"
+        font-size: 27*1vw*0.052083
+        font-weight: 400
+        line-height: 36*1vw*0.052083
+        text-transform: uppercase
+        span
+            letter-spacing: 0.27*1vw*0.052083
+            color: #a11638
+    .client_logo
+        display: flex
+        justify-content: space-around
+        align-items: center
+        img
+            &:nth-child(1)
+                width: 231*1vw*0.052083
+            &:nth-child(2)
+                width: 275*1vw*0.052083
+            &:nth-child(3)
+                width: 234*1vw*0.052083
+            &:nth-child(4)
+                width: 93*1vw*0.052083
+            &:nth-child(5)
+                width: 148*1vw*0.052083
+            &:nth-child(6)
+                width: 113*1vw*0.052083
+            &:nth-child(7)
+                width: 158*1vw*0.052083
+            &:nth-child(8)
+                width: 248*1vw*0.052083
+.eight_block
+    padding: 40*1vw*0.052083 55*1vw*0.052083 166*1vw*0.052083 45*1vw*0.052083
+    background: url("../img/image/background_eight_block.png")
+    background-size: 100vw
+    h1 
+        text-align: center
+        color: #ffffff
+        font-family: "HelveticaNeueCyr-Roman"
+        font-size: 27*1vw*0.052083
+        font-weight: 400
+        line-height: 36*1vw*0.052083
+        text-transform: uppercase
+        /* Text style for "Остались в" */
+        letter-spacing: 0.27*1vw*0.052083
+        margin-bottom: 101*1vw*0.052083
+    .contact_form
+        display: flex
+        align-items: flex-end
+        justify-content: space-between
+        label
+            display: block
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Roman"
+            font-size: 21*1vw*0.052083
+            font-weight: 400
+            line-height: 36*1vw*0.052083
+            text-transform: uppercase
+            /* Text style for "телефон" */
+            letter-spacing: 0.21*1vw*0.052083
+            margin-bottom: 11*1vw*0.052083
+        input
+            /* Style for "Прямоуголь" */
+            width: 342*1vw*0.052083
+            height: 70*1vw*0.052083
+            box-shadow: inset 0 2*1vw*0.052083 8*1vw*0.052083 1*1vw*0.052083 rgba(8, 17, 55, 0.57)
+            background-color: #304157
+            border-radius: 35*1vw*0.052083
+            color: #969595
+            font-family: "HelveticaNeueCyr-Roman"
+            font-size: 17*1vw*0.052083
+            font-weight: 400
+            line-height: 36*1vw*0.052083
+            /* Text style for "+7 912 652" */
+            letter-spacing: 0.17*1vw*0.052083
+            padding: 0 40*1vw*0.052083
+            border: none
+            outline: none
+        button
+            /* Style for "Кнопка" */
+            width: 427*1vw*0.052083
+            height: 70*1vw*0.052083
+            box-shadow: 0 3*1vw*0.052083 0 rgba(24, 48, 86, 0.4)
+            background-color: #2b4478
+            background-image: linear-gradient(to top, #a11638 0%, #c52f54 71%, #c52f54 100%)
+            border-radius: 35*1vw*0.052083
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Roman"
+            font-size: 21*1vw*0.052083
+            font-weight: 400
+            line-height: 36*1vw*0.052083
+            text-transform: uppercase
+            /* Text style for "отправить" */
+            letter-spacing: 0.21*1vw*0.052083
+            border: none
+            outline: none
+            
+.footer
+    background: url("../img/image/footer_background.png") no-repeat 0 0, linear-gradient(to top, #05080b 0%, #162232 100%)
+    background-size: 100vw, 100vw
+    padding: 77*1vw*0.052083 70*1vw*0.052083 20*1vw*0.052083 46*1vw*0.052083
+    h2 
+        color: #a11638
+        font-family: "HelveticaNeueCyr-Roman"
+        font-size: 27*1vw*0.052083
+        font-weight: 400
+        line-height: 36*1vw*0.052083
+        text-transform: uppercase
+        /* Text style for "контакты д" */
+        letter-spacing: 0.27*1vw*0.052083
+        margin-bottom: 25*1vw*0.052083
+    &__container
+        display: flex
+        justify-content: space-between 
+        align-items: flex-start
+        margin-bottom: 27*1vw*0.052083
+        img 
+            position: relative
+            bottom: 17*1vw*0.052083
+            width: 282*1vw*0.052083
+    &__contact
+        p 
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-Light"
+            font-size: 17*1vw*0.052083
+            font-weight: 500
+            /* Text style for "+7 (812) 3" */
+            letter-spacing: 0.42*1vw*0.052083
+            &:nth-child(2)
+                margin-bottom: 25*1vw*0.052083
+    &__adres
+        right: 112*1vw*0.052083
+        position: relative
+        p 
+            text-shadow: 0 8*1vw*0.052083 3*1vw*0.052083 rgba(3, 12, 25, 0.77)
+            color: #ffffff
+            font-family: "HelveticaNeueCyr-light"
+            font-size: 17*1vw*0.052083
+            font-weight: 300
+            line-height: 25*1vw*0.052083
+            /* Text style for "г. Санкт-П" */
+            letter-spacing: 0.42*1vw*0.052083
+            
+    &__social_button
+        width: 400*1vw*0.052083
+        margin: 0 auto
+        display: flex
+        align-items: center
+        justify-content: space-between
+        position: relative
+        left: 10*1vw*0.052083
+        img 
+            display: inline-block
+            width: 33*1vw*0.052083
+
+@media screen and (max-width: 640px)
+    .first_block
+        padding: 2vw 3vw
+        &__container
+            display: block
+        &__nav
+            display: block
+            width: 100%
+            margin-bottom: 10vw
+            ul 
+                display: flex 
+                justify-content: space-between
+                margin: 0
+                li 
+                    font-size: 15*3vw*0.052083
+        &__contact
+            display: none
+            text-align: center
+            .social_mobile 
+                justify-content: center
+            &__adres
+                p 
+                    font-size: 15*3vw*0.052083
+        &__logo
+            display: block
+            margin: 0 auto
+            position: static
+            width: 25vw
+        &__title
+            // transform: scale(1.5, 1.5)
+            
+        &__mouse_scroll
+            display: none
+    .second_block
+        background-position: 12.4vw 9.6vw, 0vw -1vw, 100% 30%, 28% 82%
+        background-size: 77vw, 19vw, 13vw
+        height: 1000*1vw*0.052083
+        &__title
+            font-size: 17*3vw*0.052083
+            margin-bottom: 16.70825vw
+        .advantage_title
+            margin: 0
+        .years
+            width: 90vw
+            margin: 0 1vw 0 5vw 
+            
+            span 
+                &:nth-child(1)
+                    margin-right:  15vw
+                &:nth-child(2)
+                    margin-right:  15vw
+                &:nth-child(3)
+                    margin-right:  13vw
+                &:nth-child(1)
+
+        .advantage_title
+            margin-top: 1vw
+            margin-left: 4vw
+            width: 90vw
+            margin-bottom: 4vw
+            p 
+                font-size: 2vw
+                line-height: 1.5vw
+                &:nth-child(2)
+                    margin-right: 12.11449vw
+        .branching
+            background: none
+            align-items: center
+            width: 90vw
+            &__title
+                font-size: 21*2vw*0.052083
+                line-height: 2.58382vw
+                
+            &__value 
+                p 
+                    font-size: 21*2vw*0.052083
+                    &:nth-child(2)
+                        line-height: 3.09374vw
+    .third_block
+        height: 1429*1vw*0.052083 
+        h1 
+            font-size: 17*3vw*0.052083
+            line-height: 36*2vw*0.052083
+        &__fork
+            p
+                font-size: 1.3vw
+                font-family: "HelveticaNeueCyr-UltraLight3"
+                letter-spacing: 0.15vw
+            &:nth-child(2)
+                // transform: scale(1.5)
+                
+                margin-bottom: 3vw
+                .third_block__fork__title
+                    margin-right: 21.2186vw
+            &:nth-child(3)    
+                background-position: 8vw 3.6vw
+                // transform: scale(1.5)
+                
+                margin-bottom: 3vw
+
+                .third_block__fork__title
+                    margin-right: 21.2186vw
+            &:nth-child(4)    
+                // transform: scale(1.5)
+                margin-left: -5vw
+                margin-bottom: 7vw
+                .third_block__fork__title
+                    margin-right: 21.2186vw
+                p 
+                    &:nth-child(2)
+                        line-height: 1vw
+        &__contact_block
+            width: 994*1vw*0.052083
+            p
+                font-size: 17*2vw*0.052083 
+            button
+                font-size: 17*2vw*0.052083 
+                width: 577*1vw*0.052083
+                height: 80*1vw*0.052083 
+    .fourth_block
+        h1 
+            font-size: 17*3vw*0.052083
+            line-height: 36*2vw*0.052083
+        &__container
+            display: block
+        &__main
+            display: block    
+            .task_question
+                vertical-align: top
+                width: 24vw
+                display: inline-block
+                margin-left: 13vw
+                .level 
+                    font-size: 16*2vw*0.052083
+                .question
+                    font-size: 19*2vw*0.052083
+                .yes, .no
+                    span 
+                        font-size: 19*2vw*0.052083
+                    img 
+                        width: 8vw
+                button 
+                    font-family: "HelveticaNeueCyr-UltraLight3"
+                    width: 260*1vw*0.052083
+                    font-size: 15*2vw*0.052083
+            .tetris
+                display: inline-block
+                width: 720*1vw*0.052083
+                height: 720*1vw*0.052083
+                background-size: 37.8vw
+                margin-bottom: 5vw
+            .scale
+                vertical-align: top
+                display: inline-block
+                height: 720*1vw*0.052083
+                &__separator 
+                    height: 102*1vw*0.052083
+            .motivation
+                /* Style for "Фон" */
+                margin-left: 4vw
+                width: 779*1vw*0.052083*2
+                height: 420*1vw*0.052083*2
+                padding: 45*1vw*0.052083*2 0*1vw*0.052083*2 78*1vw*0.052083 161*1vw*0.052083
+                .first_line
+                    font-size: 51*1vw*0.052083*2
+                .second_line
+                    font-size: 37*1vw*0.052083*2
+                    margin-right: 6*1vw*0.052083*2
+                    &__second_phrase
+                        font-size: 97*1vw*0.052083*2
+                        line-height: 115*1vw*0.052083*2
+                        letter-spacing: 2.5*1vw*0.052083*2
+                .third_line
+                    font-size: 63*1vw*0.052083*2
+                    margin-bottom: 6*1vw*0.052083*2
+                .fourth_line
+                    font-size: 96*1vw*0.052083*2
+                    letter-spacing: 8.5*1vw*0.052083*2
+                    margin-bottom: 5*1vw*0.052083*2
+                .fives_line
+                    font-size: 37*1vw*0.052083*2
+                    line-height: 47*1vw*0.052083*2
+                    margin-right: 22*1vw*0.052083*2
+                    &__second_phrase
+                        font-size: 45*1vw*0.052083*2
+                        letter-spacing: 1.8*1vw*0.052083*2
+                        padding-bottom: 4*1vw*0.052083*2
+    .five_block
+        background-size: 168vw
+        h1 
+            font-size: 17*3vw*0.052083
+            line-height: 36*2vw*0.052083
+        &__content
+            margin-left: 10vw
+        .skills
+            justify-content: flex-start
+            margin: 0 
+            &__property
+                line-height: 25*1vw*0.052083
+            &:nth-child(1)
+                margin-right: 27vw
+            &:nth-child(2)
+                margin-right: 0vw
+            &:nth-child(3)
+                margin-right: 39vw
+            &:nth-child(4)
+                margin-right: 0vw
+                margin-bottom: 2.5vw
+                &__property
+                    line-height: 25*1vw*0.052083
+            &:nth-child(5)
+                margin-right: 36.29152vw
+            &:nth-child(6)
+            &__title
+                margin-bottom: 27*1vw*0.052083
+                padding-bottom: 27*1vw*0.052083
+                font-size: 21*2vw*0.052083
+                letter-spacing: 0.8*1vw*0.052083
+                span
+                    color: #a11638
+            &__property
+                font-size: 17*2vw*0.052083
+                letter-spacing: -0.1*1vw*0.052083
+                line-height: 2.98958vw
+    .six_block
+        h1 
+            font-size: 17*3vw*0.052083
+            line-height: 36*2vw*0.052083
+        .main_case
+            h2  
+                font-size: 21*2vw*0.052083
+            button
+                font-size: 16*2vw*0.052083
+                letter-spacing: .31vw
+                width: 352*1vw*0.052083
+        
+        .swiper-container
+            .swiper-slide
+                &-active
+                    width: 732*1vw*0.052083
+                    .main_case
+                        width: 732*1vw*0.052083
+                    .mockup
+                        width: 543*1vw*0.052083
+            .swiper-pagination
+                &-bullet
+                    background-size: 5vw
+
+    .seven_block
+        h1 
+            font-size: 17*3vw*0.052083
+            line-height: 36*2vw*0.052083
+        .client_logo
+            display: flex
+            justify-content: space-around
+            align-items: center
+            flex-wrap: wrap
+            img
+                &:nth-child(1)
+                    width: 231*2.3vw*0.052083
+                    margin-right: 4vw
+                &:nth-child(2)
+                    width: 275*2.3vw*0.052083
+                    margin-right: 4vw
+                &:nth-child(3)
+                    width: 234*2.3vw*0.052083
+                    margin-right: 4vw
+                &:nth-child(4)
+                    width: 93*2.3vw*0.052083
+                    margin-right: 4vw
+                &:nth-child(5)
+                    width: 148*2.3vw*0.052083
+                    margin-right: 4vw
+                &:nth-child(6)
+                    width: 113*2.3vw*0.052083
+                    margin-right: 4vw
+                &:nth-child(7)
+                    width: 158*2.3vw*0.052083
+                    margin-right: 4vw
+                &:nth-child(8)
+                    width: 248*2.3vw*0.052083
+    .eight_block
+        h1
+            font-size: 17*3vw*0.052083
+            line-height: 36*2vw*0.052083
+        .contact_form
+            display: block
+            margin-left: 10vw
+            .flex_container 
+                display: inline-block
+                &:nth-child(1), &:nth-child(3)
+                    margin-right: 20vw
+                &:nth-child(1)
+                    margin-bottom: 5vw
+                label
+                    font-size: 21*1.5vw*0.052083  
+                input
+                    width: 342*1.5vw*0.052083
+                    height: 70*1.5vw*0.052083
+                    font-size: 17*2vw*0.052083
+                    border-radius: 35*1.5vw*0.052083
+            button 
+                width: 400*1.5vw*0.052083
+                height: 70*1.5vw*0.052083
+                border-radius: 35*1.5vw*0.052083
+                font-size: 21*1.5vw*0.052083
+    .footer
+        h2 
+           font-size: 27*1.5vw*0.052083 
+        &__container
+            margin-bottom: 27*2vw*0.052083
+            img 
+                width: 282*2vw*0.052083
+        &__contact
+            p 
+                font-size: 17*2vw*0.052083
+        &__adres
+            position: static
+            h2 
+                text-align: right
+            p 
+                font-size: 17*2vw*0.052083
+                text-align: right
+                line-height: 40*1vw*0.052083
+        &__social_button
+            width: 400*2vw*0.052083
+            img 
+                display: inline-block
+                width: 33*2.5vw*0.052083
+
+
+
+    
+

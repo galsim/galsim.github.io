@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Global Gallery v2\n"
+"POT-Creation-Date: 2013-07-23 11:15+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../original.php\n"
+
+#: ../shortcodes.php:248
+msgid "page"
+msgstr "pagina"
+
+#: ../shortcodes.php:248
+msgid "of"
+msgstr "di"
+
+#: ../shortcodes.php:260
+msgid "show more"
+msgstr "mostra altro"
+
+#: ../shortcodes.php:424
+msgid "Back to collection"
+msgstr "Torna alla collezione"
+
+#: ../functions.php:265
+msgid "All"
+msgstr "Tutto"

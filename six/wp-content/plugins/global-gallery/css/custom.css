@@ -1,0 +1,181 @@
+
+@import url("//rakipoplavok.ru/wp-content/plugins/global-gallery/css/frontend.min.css?ver=5.112");
+@import url("//rakipoplavok.ru/wp-content/plugins/global-gallery/js/jquery.galleria/themes/ggallery/galleria.ggallery_minimal.css?ver=5.112");
+@import url("//rakipoplavok.ru/wp-content/plugins/global-gallery/js/slick/slick-gg.css?ver=5.112");
+
+
+.gg_loader div {
+	background-color: #888888;
+}
+
+
+
+/* image border, radius and shadow */
+.gg_standard_gallery .gg_img,
+.gg_masonry_gallery .gg_img_inner,
+.gg_string_gallery .gg_img,
+.gg_coll_img {
+	border: none    
+    	
+	}
+
+
+
+
+/* collections - texts under images */
+.gg_coll_img .gg_main_overlay_under .gg_img_title_under {
+	color: #444444;
+}
+.gg_coll_img .gg_main_overlay_under .gg_img_descr_under {
+	color: #555555;
+}
+
+/* collection filters + back to collection button */
+.gg_filter {
+	text-align: left;
+    padding: 0px 0px;
+}
+.gg_filter a.ggf,
+.gg_coll_back_to_new_style {	
+	color: #444444;
+}
+.gg_filter a.ggf:hover,
+.gg_coll_back_to_new_style:hover {	
+	color: #666666 !important;
+}
+.gg_filter a.ggf.gg_cats_selected,
+.gg_filter a.ggf.gg_cats_selected:hover {	
+	color: #222222 !important;
+}
+.gg_new_filters a.ggf,
+.gg_coll_back_to_new_style {	
+	background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    
+        margin-left: 0px !important;
+    }
+.gg_new_filters a.ggf:hover,
+.gg_coll_back_to_new_style:hover {	
+	background-color: #ffffff;
+    border: 1px solid #666666;
+}
+.gg_new_filters a.ggf.gg_cats_selected,
+.gg_new_filters a.ggf.gg_cats_selected:hover {	
+	background-color: #ffffff;
+    border: 1px solid #555555;
+}
+
+
+
+/* ************************************************** */
+
+/* standard gallery images */
+.gg_standard_gallery .gg_img {
+	margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+/* masonry gallery images */
+.gg_masonry_gallery .gg_img {
+	    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+
+/* photostring gallery images */
+.gg_string_gallery .gg_img {
+	margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+/* collection images */
+.gg_coll_img_wrap {
+	margin-bottom: 20px;
+	padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* carousel */
+.gg_car_item_wrap {
+	padding-right: 7px;
+	padding-left: 7px;
+    padding-top: 5px;
+	padding-bottom: 5px;
+}
+.gg_carousel_wrap.slick-slider {
+	margin-bottom: 55px;
+}
+
+/* pagination button alignment */
+.gg_paginate {
+	text-align: center;
+}
+
+
+/* ************************************************** */
+
+
+
+.gg_galleria_slider_wrap .galleria-thumbnails .galleria-image {
+	width: 60px !important;
+}
+.gg_galleria_slider_wrap .galleria-thumbnails .galleria-image,
+.gg_galleria_slider_wrap .galleria-thumbnails-container {
+     height: 40px !important;
+}
+.gg_galleria_slider_wrap.gg_galleria_slider_show_thumbs {
+	padding-bottom: 54px !important;	
+}
+.gg_galleria_slider_show_thumbs .galleria-thumbnails-container {
+	bottom: -52px !important;		
+}
+
+
+/* ************************************************** */
+
+.gg_tosrus.tos-wrapper {
+	background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+
+.tosrus_ie8.tos-wrapper.tos-fixed {
+    background: url(https://rakipoplavok.ru/wp-content/plugins/global-gallery/js/lightboxes/jQuery.TosRUs/over_bg_d.png) repeat center center transparent !important;
+}
+.tosrus_ie8 .tos-prev span, .tosrus_ie8 .tos-prev span:before, 
+.tosrus_ie8 .tos-next span, .tosrus_ie8 .tos-next span:before,
+.tosrus_ie8 .tos-close span, .tosrus_ie8 .tos-close span:before, .tosrus_ie8 .tos-close span:after {
+	font-family: 'globalgallery';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    
+    color: #fff;
+    border: none !important;
+}
+.tosrus_ie8 .tos-prev span:before {
+    margin-left: -3px !important;
+	content: "\e608";	
+} 
+.tosrus_ie8 .tos-next span:before {
+    margin-right: -7px;
+	content: "\e605";
+}
+.tosrus_ie8 .tos-close {
+	background-image: url(https://rakipoplavok.ru/wp-content/plugins/global-gallery/js/lightboxes/jQuery.TosRUs/close_icon.png) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+
+
+
+.gg_img_title_under {
+    font-size: 18px !important;
+    text-align: left !important;
+}

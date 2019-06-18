@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce theme v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-02 20:55+0300\n"
+"PO-Revision-Date: 2016-07-02 20:56+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 1 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 2 : 0 ;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: js/jquery-ui-1.11.4.js:8
+msgid "'"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:117
+#, php-format
+msgid "%s"
+msgstr ""
+
+# function woocommerce_castom_shipping_fallback_notice() {
+# echo '<div class="error"><p>' . sprintf( __( 'WooCommerce  depends on the last version of %s to work!', 'saphali_delivery_postomat' ), '<a href="http://wordpress.org/extend/plugins/woocommerce/">WooCommerce</a>' ) . '</p></div>';
+# }
+#: saphali-delivery-dostavista.php:120
+#, php-format
+msgid "WooCommerce  depends on the last version of %s to work!"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:182
+msgid "Dostavista"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:248 saphali-delivery-dostavista.php:1631
+msgid "Дата доставки"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:252 saphali-delivery-dostavista.php:1638
+msgid "Время доставки от"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:256 saphali-delivery-dostavista.php:1646
+msgid "Время доставки до"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:278
+msgid "Статус доставки"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:864 saphali-delivery-dostavista.php:873
+msgid "Удалить заказ в Dostavista"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:870 saphali-delivery-dostavista.php:879
+msgid "Информация по заказу"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:884 saphali-delivery-dostavista.php:886
+msgid "Создать заказ в Dostavista"
+msgstr ""
+
+# 'enabled' => array(
+# 'title' 		=> __( 'Enable/Disable', 'woocommerce' ),
+# 'type' 			=> 'checkbox',
+#: saphali-delivery-dostavista.php:1343 saphali-delivery-dostavista.php:1462
+msgid "Enable/Disable"
+msgstr "Включить/Выключить"
+
+#: saphali-delivery-dostavista.php:1345 saphali-delivery-dostavista.php:1464
+#: saphali-delivery-dostavista.php:1470
+msgid "Enable Dostavista"
+msgstr "Включить Dostavista"
+
+# 'title' => array(
+# 'title' 		=> __( 'Method Title', 'woocommerce' ),
+# 'type' 			=> 'text',
+#: saphali-delivery-dostavista.php:1349 saphali-delivery-dostavista.php:1474
+msgid "Method Title"
+msgstr "Заголовок метода"
+
+# 'type' 			=> 'text',
+# 'description' 	=> __( 'This controls the title which the user sees during checkout.', 'woocommerce' ),
+# 'default'		=> __( 'PickPoint', 'saphali_delivery_postomat' ),
+#: saphali-delivery-dostavista.php:1351 saphali-delivery-dostavista.php:1476
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1352 saphali-delivery-dostavista.php:1477
+msgid "Доставка через сервис Dostavista"
+msgstr ""
+
+# 'min_amount' => array(
+# 'title' 		=> __( 'Minimum Order Amount', 'woocommerce' ),
+# 'type' 			=> 'number',
+#: saphali-delivery-dostavista.php:1355 saphali-delivery-dostavista.php:1490
+msgid "Minimum Order Amount"
+msgstr "Сумма заказа не меньше"
+
+# 'type' 			=> 'text',
+# 'description' 	=> __('Users will need to spend this amount to get free shipping. Leave blank to disable.', 'woocommerce'),
+# 'default' 		=> ''
+#: saphali-delivery-dostavista.php:1357
+msgid ""
+"Users will need to spend this amount to get free shipping. Leave blank to "
+"disable."
+msgstr ""
+
+# 'fee' => array(
+# 'title' 		=> __( 'Delivery Fee', 'woocommerce' ),
+# 'type' 			=> 'number',
+#: saphali-delivery-dostavista.php:1361 saphali-delivery-dostavista.php:1502
+msgid "Delivery Fee"
+msgstr ""
+
+# 'requires_coupon' => array(
+# 'title' 		=> __( 'Coupon', 'woocommerce' ),
+# 'type' 			=> 'checkbox',
+#: saphali-delivery-dostavista.php:1373
+msgid "Coupon"
+msgstr ""
+
+# 'type' 			=> 'checkbox',
+# 'label' 		=> __( 'Free shipping requires a free shipping coupon', 'woocommerce' ),
+# 'description' 	=> __('Users will need to enter a valid free shipping coupon code to use this method. If a coupon is used, the minimum order amount will be ignored.', 'woocommerce'),
+#: saphali-delivery-dostavista.php:1375
+msgid "Free shipping requires a free shipping coupon"
+msgstr ""
+
+# 'label' 		=> __( 'Free shipping requires a free shipping coupon', 'woocommerce' ),
+# 'description' 	=> __('Users will need to enter a valid free shipping coupon code to use this method. If a coupon is used, the minimum order amount will be ignored.', 'woocommerce'),
+# 'default' 		=> 'no'
+#: saphali-delivery-dostavista.php:1376
+msgid ""
+"Users will need to enter a valid free shipping coupon code to use this "
+"method. If a coupon is used, the minimum order amount will be ignored."
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1380 saphali-delivery-dostavista.php:1514
+msgid "Примечание для курьера"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1382 saphali-delivery-dostavista.php:1516
+msgid "Доп. информация: номер офиса или квартиры, как пройти."
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1386 saphali-delivery-dostavista.php:1520
+msgid "Идентификатор магазина в системе Dostavista"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1388 saphali-delivery-dostavista.php:1522
+msgid ""
+"Идентификатор магазина в нашей базе — отображается в url личного кабинета."
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1392 saphali-delivery-dostavista.php:1526
+msgid "Секретный код для работы с API в системе Dostavista"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1394 saphali-delivery-dostavista.php:1528
+msgid ""
+"Первоначально выдается администратором, потом может быть изменен "
+"самостоятельно через ЛК."
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1398 saphali-delivery-dostavista.php:1532
+msgid "Test mode"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1400 saphali-delivery-dostavista.php:1534
+msgid "Включить тестовый режим"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1404 saphali-delivery-dostavista.php:1538
+msgid "Тип доставки по умолчанию"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1406 saphali-delivery-dostavista.php:1540
+msgid ""
+"Зависимость типа от веса: Пеший - ≤15 кг; Легковой а/м - ≤200 кг; Грузовой а/"
+"м - без ограничений"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1411 saphali-delivery-dostavista.php:1545
+msgid "Задействовать расчет стоимости доставки в системе Dostavista"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1413 saphali-delivery-dostavista.php:1547
+msgid "Позволяет рассчитать стоимость доставки"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1417 saphali-delivery-dostavista.php:1551
+msgid "Адрес откуда везутся товары заказа"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1419 saphali-delivery-dostavista.php:1553
+msgid ""
+"Адрес забора в общепринятом формате “город, улица, дом”. <br /> Пример:<span "
+"style=\"color:green;\"> Москва, Солянка, 13к1, стр.6</span> <br /> Крайне не "
+"желательно загромождать адрес словами, полностью идентифицирующими элементы "
+"адресной структуры (“город”, “район”, “улица”, “дом”) <br /> Пример "
+"<strong>неправильного</strong> написания адреса: <span style=\"color:red;"
+"\">город: Москва, район: Таганский, улица: Солянка, дом: 13, корпус: 1, "
+"строение: 6</span>"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1423 saphali-delivery-dostavista.php:1557
+msgid "Актуальность времени забора"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1428 saphali-delivery-dostavista.php:1562
+msgid ""
+"Укажите, до какого времени необходимо совершить действие (<strong>запрос на "
+"создание заказа в сервисе доставки</strong>), чтобы он обрабатывался "
+"(формировался заказ в курьерской службе) в этот же день. Если действие будет "
+"позже указанного времени, то заказы будут обрабатываться на следующий день."
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1431 saphali-delivery-dostavista.php:1565
+msgid "Имя контактного лица (для связи с курьером)"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1433 saphali-delivery-dostavista.php:1439
+#: saphali-delivery-dostavista.php:1567 saphali-delivery-dostavista.php:1573
+msgid " "
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1437
+msgid "Телефон для связи с курьером"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1445 saphali-delivery-dostavista.php:1579
+msgid "Масса по умолчанию в на 1 позицию товара, кг"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1447 saphali-delivery-dostavista.php:1581
+msgid "Масса по умолчанию, кг"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1468
+msgid "Включить только для админа"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1481
+msgid "Dostavista (опции задействования)"
+msgstr ""
+
+# 'options'		=> array(
+# '' 				=> __( 'N/A', 'woocommerce' ),
+# 'coupon'		=> __( 'Купон на бесплатную доставку. Активация "'.$this->method_title.'"', 'woocommerce' ),
+#: saphali-delivery-dostavista.php:1485
+msgid "N/A"
+msgstr ""
+
+# 'coupon'		=> __( 'Купон на бесплатную доставку. Активация "'.$this->method_title.'"', 'woocommerce' ),
+# 'min_amount' 	=> __( 'A minimum order amount (defined below)', 'woocommerce' ),
+# 'either' 		=> __( 'A minimum order amount OR a coupon', 'woocommerce' ),
+#: saphali-delivery-dostavista.php:1486
+msgid "A minimum order amount (defined below)"
+msgstr ""
+
+# ),
+# 'description' 	=> __( 'Покупателям необходимо потратить именно столько, чтобы активировать данный метод доставки. Оставьте пустым, чтобы опция была неактивной.', 'woocommerce' ),
+# 'default' 		=> '0',
+#: saphali-delivery-dostavista.php:1496
+msgid ""
+"Покупателям необходимо потратить именно столько, чтобы активировать данный "
+"метод доставки. Оставьте пустым, чтобы опция была неактивной."
+msgstr ""
+
+#: saphali-delivery-dostavista.php:1571
+msgid "Телефон (для связи с курьером)"
+msgstr ""
+
+#: saphali-delivery-dostavista.php:2207 saphali-delivery-dostavista.php:2208
+#, php-format
+msgid ""
+"Статус доставки на данный момент: %s. \n"
+" Штрихкоды: %s."
+msgstr ""
+
+#: saphali-delivery-dostavista.php:2211
+msgid "<span class=\"req\">Ошибка запроса при отправке данных заказа."
+msgstr ""
+
+#: saphali-delivery-dostavista.php:2241
+msgid "Доставка через сервис Dostavista:"
+msgstr ""
+
+# 'type' 			=> 'checkbox',
+# 'label' 		=> __( 'Enable PickPoint', 'woocommerce' ),
+# 'default' 		=> 'no'
+#~ msgid "Enable PickPoint"
+#~ msgstr "Включить PickPoint"

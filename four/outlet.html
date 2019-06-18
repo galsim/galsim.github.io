@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/fonts/MonionProFont.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/outlet.css">
+</head>
+<body>
+    <div class="main_page">
+        <header class="main_page__header">
+            <p class="main_page__button">menu</p>
+            <p class="leng">IT   <span>EN</span>   RU</p>
+        </header>
+        <div class="main_page__look_block">
+            <p>
+                OUTLET
+            </p>
+        </div>
+    </div>
+    <div class="menu">
+        <header class="menu__header">
+            <p class="menu__header__button">close</p>
+            <p class="leng">IT   <span>EN</span>   RU</p>
+        </header>
+        <div class="menu__links">
+            <div class="line">
+                <p>
+                    <a href="index.html"></a>
+                </p>
+                <p>
+                    <a href="spring_summer.html">COLLECTIONS</a>
+                </p>
+                <p>
+                    <a href="campaign.html">CAMPAIGN</a>
+                </p>
+            </div>
+            <div class="line">
+                <p><a href="stories.html">STORIES</a></p>
+                <p><a href="shop.html">ONLINE STORE</a></p>
+                <p><a href="designer.html">DESIGNER</a></p>
+            </div>
+            <div class="line">
+                <p><a href="outlet.html">OUTLET</a></p>
+                <p><a href="contact.html">CONTACTS</a></p>
+            </div>
+        </div>
+        <footer class="footer">
+            <form action="#" class="footer__form">
+                <label for="#email">NEWSLETTER</label>
+                <input type="text" id="email" placeholder="Your E-mail" class="footer__form__email">
+                <div>
+                    <p>
+                        2019 © MASSIMO SFORZA
+                    </p>
+                    <p>FACEBOOK  <span>|</span>  INSTAGRAM</p>
+                </div>
+            </form>
+        </footer>
+        <img src="assets/img/logo.png" alt="" class="logo">
+    </div>
+    <div class="outlet_page">
+        <div class="outlet_page__first_block">
+            <div class="look">
+                <img src="./assets/img/outlet-first-block-left.jpg" alt="">
+                <p>
+                    SS 17 <br>
+                    Mod. 331J22A2 | art. 53548 | col. 03
+                </p>
+            </div>
+            <div class="look">
+                <img src="./assets/img/outlet-first-block-right.jpg" alt="">
+                <p>
+                    FW 17 <br>
+                    Mod. 331J22A2 | art. 53548 | col. 03</p>
+            </div>
+        </div>
+        <div class="outlet_page__second_block">
+            <img src="./assets/img/outlet-second-block.jpg" alt="">
+            <p>
+                SS 18 <br>
+                Mod. 331J22A2 | art. 53548 | col. 03;
+                </p>
+        </div>
+        <div class="outlet_page__third_block">
+            <div class="look">
+                <img src="./assets/img/outlet-third-block-left.jpg" alt="">
+                <p>
+                    SS 18 <br> 
+                    Mod. 331J22A2 | art. 53548 | col. 03
+                </p>
+            </div>
+            <div class="look">
+                <p>SS 18 <br>
+                    Mod. 331J22A2 | art. 53548 | col. 03
+                </p>
+                <img src="./assets/img/outlet-third-block-right.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="mobile_footer">
+        <form action="#" class="mobile_footer__form">
+            <label for="#email">NEWSLETTER</label>
+            <input type="text" id="email" placeholder="Your E-mail" class="footer__form__email">
+            <div>
+                <p>
+                    2019 © MASSIMO SFORZA
+                </p>
+                <p>FACEBOOK  <span>|</span>  INSTAGRAM</p>
+            </div>
+        </form>
+    </div>
+    <script src="./assets/script/jquery-3.4.1.min.js"></script>
+    <script>
+        $('.main_page__button').on('click', function() {
+            $('.menu').css('display', 'block')
+        })
+        $('.menu__header__button').on('click', function() {
+            $('.menu').css('display', 'none')
+        })
+    </script>
+</body>
+</html>

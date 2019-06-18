@@ -1,0 +1,58 @@
+.main_page {
+    background: url("../img/designer-background.png") no-repeat 53% 25%;
+    background-size: 100%;
+
+}
+
+.menu {
+    width: 95.453vw
+}
+
+.main_page__look_block {
+    align-items: center;
+    justify-content: center
+}
+.main_page__look_block p {
+    line-height: 3.039063vw !important;
+}
+
+
+.main_page__look_block p span{
+    font-size: 22px;
+    letter-spacing: 0.89px;
+    line-height: 32.25px;
+}
+
+.main_page__look_block p{
+    color: #ffffff;
+    font-family: "Gals Light";
+    font-size:  1.77083333333vw;
+    font-weight: bold;
+    line-height: 5.0390625vw;
+    text-transform: uppercase;
+    /* Text style for "CONTACTS" */
+    letter-spacing: 0.2171875vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .main_page {
+        height: 155.34375vw;
+        background: url(../img/designer-background.png) no-repeat 63% 16%;
+        background-size: 233vw;
+
+    }
+    .main_page__look_block p{
+        margin-top: 64.6875vw;
+        font-size: 5.3125vw
+    }
+
+    .mobile_footer {
+        padding-left: 7.031205vw
+    }
+
+    .menu {
+        width: 100vw;
+    }
+    
+}
