@@ -28,14 +28,14 @@ function requestApi(url) {
         };
 
         const output = JSON.parse(request.responseText);
-        console.log(output);
+        console.log(output.results);
         let inner = '';
 
         output.results.forEach(function(item) {
-            let nameItem = item.name || item.title;
-            let filmPoster = item.poster_path;
-            console.log(item);
-            inner += '<div class="col-3">' + '<img class="img-fluid" src="https://image.tmdb.org/t/p/w500' + filmPoster + '"/>' + '<p>' + nameItem + '</p>' + '</div>';
+            let nameItem = item.name || item.title,
+            filmPoster = item.poster_path,
+            filmDescription = item.overview;
+            inner += '<div class="col-4">' + '<img class="img-fluid" src="https://image.tmdb.org/t/p/w500' + filmPoster + '"/>' + '<p class="h3">' + nameItem + '</p>' + '<p class="text-muted">' + filmDescription + '</p>' + '</div>';
         });
 
         movie.innerHTML = inner;
